@@ -133,7 +133,7 @@ const [phone, setPhone]= useState('');
         <div className="flex lg:hidden">
           <button
             type="button"
-            className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"
+            className=" inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"
             onClick={() => setMobileMenuOpen(true)}
           >
             <span className="sr-only">Open main menu</span>
@@ -207,8 +207,8 @@ const [phone, setPhone]= useState('');
           <Link to="/Credit-score"  className="text-lg animate-bounce font-semibold leading-6 text-red-700">
              Check Credit Score 
           </Link>
-          <Link to="/Calculators" className="text-lg font-semibold leading-6 text-gray-900">
-            Finance Calculator
+          <Link to="/Refine" className="text-lg font-semibold leading-6 text-blue-800">
+            Credit Refine
           </Link>
         </Popover.Group>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">

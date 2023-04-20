@@ -11,7 +11,7 @@ const Footer = () => {
       <hr/>
       <footer className="sticky z-10 bg-white  ">
         <div className="container mx-auto">
-          <div className="grid md:grid-cols-5 grid-cols-2 ml-8 md:mx-auto p-2 justify-evenly">
+          <div className="grid md:grid-cols-5 grid-cols-2  mx-auto p-2 justify-evenly">
             <div className="w-3/5 md:w-full m-auto md:-ml-3 hidden md:block">
                 <a href="  " className="mb-2 inline-block max-w-[160px]">
                   <img
@@ -48,7 +48,7 @@ const Footer = () => {
                 </ul>
               </div>
       
-              <div className="my-5 ml-4 w-full">
+              <div className="my-5  w-full">
                 <h4 className="text-dark mb-2 mx-auto  text-lg font-semibold">
                   Company
                 </h4>

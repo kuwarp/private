@@ -9,7 +9,7 @@ const FAQ = () => {
     const [show5, setShow5] = useState(false);
 
     return (
-        <div className=" 2xl:container mt-28 2xl:mx-auto md:py-12 lg:px-20 md:px-6 py-9 px-4">
+        <div className="container mt-28 mx-auto md:py-12 lg:px-20 md:px-6 py-9 px-4">
 
 
             <h2 className=" font-semibold lg:text-4xl text-3xl lg:leading-9 md:leading-7 leading-9 text-blue-900">Frequently Asked Questions</h2>

@@ -38,6 +38,7 @@ import SBIclick from './pages/Calculators/SBIclick';
 import YEScalc from './pages/Calculators/YEScalc';
 import Payout from './pages/Refine/Payout';
 import Payment from './pages/Refine/Payment';
+import ToTop from './components/ToTop';
 // import Stripehead from './components/Stripehead';
 const Main = () => {
   return (
@@ -92,9 +93,10 @@ const Main = () => {
 {/* Blogs Grid End */}
 
 </Routes>
-<Footer/>
+{/* <Footer/> */}
 </BrowserRouter>
 {/* <About/> */}
+<ToTop />
    
     </div>
   )
