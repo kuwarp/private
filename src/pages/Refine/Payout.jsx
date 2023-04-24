@@ -87,7 +87,7 @@ const Payout = () => {
                     <p className="text-sm leading-3 text-gray-900 mt-8 px-3">By clicking submit you agree to our terms of service, privacy policy.</p>
                <Link to="/payments">
                     <div id="button" className={`${show ? "hidden" : "flex"}  container mx-auto justify-center items-center px-4 md:px-10 pb-10 mt-4`}>
-                        <button  className="mt-9 text-base font-semibold leading-none text-white py-4 px-10 bg-indigo-500 rounded hover:bg-indigo-700 focus:ring-2 focus:ring-offset-2 focus:ring-indigo-700 focus:outline-none rounded-full">SUBMIT</button>
+                        <button  className="mt-9 text-base font-semibold leading-none text-white py-4 px-10 bg-indigo-500 rounded hover:bg-indigo-700  rounded-full">SUBMIT</button>
                     </div>
                     </Link>  
                 </div>

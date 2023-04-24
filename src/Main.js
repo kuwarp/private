@@ -93,7 +93,7 @@ const Main = () => {
 {/* Blogs Grid End */}
 
 </Routes>
-{/* <Footer/> */}
+<Footer/>
 </BrowserRouter>
 {/* <About/> */}
 <ToTop />

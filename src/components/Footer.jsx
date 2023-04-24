@@ -8,76 +8,83 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 const Footer = () => {
   return (
     <div>
-      <hr/>
+      <hr className="mx-auto"/>
       <footer className="sticky z-10 bg-white  ">
-        <div className="container mx-auto">
-          <div className="grid md:grid-cols-5 grid-cols-2  mx-auto p-2 justify-evenly">
-            <div className="w-3/5 md:w-full m-auto md:-ml-3 hidden md:block">
-                <a href="  " className="mb-2 inline-block max-w-[160px]">
+        <div className="mx-auto">
+          <div className="grid md:grid-cols-5 grid-cols-2  p-2 justify-between">
+            <div className=" m-auto md:col-span-1 col-span-2">
+                <a href="  " className=" inline-block">
                   <img
-                    // src="https://cdn.tailgrids.com/2.0/image/assets/images/logo/logo.svg"
+                    
                    src={Logo}
                     alt="logo"
-                    className="w-28 my-auto"
+                    className="w-40"
                   />
                 </a>
             </div>
-              <div className="my-5  md:-ml-4 w-full">
+              <div className="my-5 px-5 mx-auto w-full">
                 <h4 className="text-dark mb-2 text-lg font-semibold">
                   Quick Links
                 </h4>
-                <ul className="text-gray-600 ">
+                <ul className="text-gray-600">
                   {/* <li>Help</li> */}
                   {/* <li > DSA LOGIN</li> */}
                   <Link to="/Calculators">
-                  <li className="list-disc">EMI Calculator</li>
+                  <li className="my-2 text-sm list-disc">EMI Calculator</li>
                   </Link>
                   <Link to="/Calculators">
-                  <li className="list-disc">AU VALUE Calculator</li>
+                  <li className="my-2 text-sm list-disc">AU VALUE Calculator</li>
                   </Link>
                   <Link to="/Calculators">
-                  <li className="list-disc">IDFC FIRST VALUE Calculator</li>
+                  <li className="my-2 text-sm list-disc">IDFC FIRST VALUE Calculator</li>
                   </Link>
                   <Link to="/Calculators">
-                  <li className="list-disc">SBI SCLICK VALUE Calculator</li>
+                  <li className="my-2 text-sm list-disc">SBI SCLICK VALUE Calculator</li>
                   </Link>
                   <Link to="/Calculators">
-                  <li className="list-disc">YES BANK VALUE Calculator</li>
+                  <li className="my-2 text-sm list-disc" >YES BANK VALUE Calculator</li>
                   </Link>
                   {/* <li>Gst Calulator</li> */}
                 </ul>
               </div>
       
-              <div className="my-5  w-full">
-                <h4 className="text-dark mb-2 mx-auto  text-lg font-semibold">
-                  Company
-                </h4>
-                <ul className="text-gray-600 mx-auto  ">
-                  <Link to="/CreditklickFamily">
-                  <li className="list-disc">About us</li></Link>
-                  <li className="list-disc">Careers</li>
-                 <Link to='/connectwithus'><li className="list-disc">Contact us</li></Link> 
-                  {/* <li>Terms of Use</li> */}
-            <Link to="/Privacy-policies">    <li className="list-disc">Privacy Policy</li></Link>  
-                  {/* <li>Investors</li>
-                   */}
-           <Link to="/Blogs">     <li className="list-disc">Blogs</li></Link>
-                </ul>
-              </div>
-              <div className="my-5 w-full">
+              
+              <div className="my-5 px-5 w-full">
                 <h4 className="text-dark mb-2 text-lg font-semibold">
                   Resources
                 </h4>
-                <ul className="text-gray-600">
-                  <li className="md:list-disc">Credit Score</li>
-                  <li className="list-disc lg:list-disc-none">Credit Card</li>
-                  <li className="list-disc lg:list-disc-none">Credit Refine</li>
-                  <li className="list-disc lg:list-disc-none">Personal Loan</li>
-                  <li className="list-disc lg:list-disc-none">Buiness Loan</li>
-                  <li className="list-disc lg:list-disc-none">Home Loan</li>
+                <ul className="text-gray-600 space-y-2">
+                  <li className="text-sm list-disc">Credit Score</li>
+                  <li className="text-sm list-disc">Credit Card</li>
+                  <li className="text-sm list-disc">Credit Refine</li>
+                  <li className="text-sm list-disc">Personal Loan</li>
+                  <li className="text-sm list-disc">Buiness Loan</li>
+                  <li className="text-sm list-disc">Home Loan</li>
                 </ul>
               </div>
-         
+              <div className="my-5 px-5 w-full">
+                <h4 className="text-dark mb-2  text-lg font-semibold">
+                  Company
+                </h4>
+                <ul className="text-gray-600">
+                  <Link to="/CreditklickFamily">
+                  <li className="my-2 text-sm list-disc">About us</li>
+                  </Link>
+                <Link to='/'>
+                  <li className="my-2 text-sm list-disc">Careers</li>
+                  </Link>  
+                 <Link to='/connectwithus'>
+                  <li className="my-2 text-sm list-disc">Contact us</li>
+                  </Link> 
+                  {/* <li>Terms of Use</li> */}
+            <Link to="/Privacy-policies">
+              <li className="my-2 text-sm list-disc">Privacy Policy</li>
+              </Link>  
+                  {/* <li>Investors</li>
+                   */}
+           <Link to="/Blogs">     <li className="my-2 text-sm list-disc">Blogs</li></Link>
+                </ul>
+              </div>
             <div className="w-full">
               <div className="my-5  md:mx-auto space-y-6">
                   <h4 className="text-dark mb-1 text-lg font-semibold">
@@ -127,7 +134,7 @@ const Footer = () => {
                 </marquee>  </p>
         <div>
           <span className="absolute left-0 bottom-0 z-[-1]">
-            <svg
+            {/* <svg
               width="217"
               height="229"
               viewBox="0 0 217 229"
@@ -151,7 +158,7 @@ const Footer = () => {
                   <stop offset="1" stop-color="#C4C4C4" stop-opacity="0" />
                 </linearGradient>
               </defs>
-            </svg>
+            </svg> */}
           </span>
           <span className="absolute top-10 right-10 z-[-1]">
             <svg
