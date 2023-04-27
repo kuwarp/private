@@ -9,6 +9,9 @@ import { useForm } from "react-hook-form";
 // import { ToastContainer, toast } from 'react-toastify';
 //   import 'react-toastify/dist/ReactToastify.css';
 
+window.scrollTo(0,0)
+
+
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
 }

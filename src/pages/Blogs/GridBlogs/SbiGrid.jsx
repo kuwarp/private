@@ -1,5 +1,8 @@
 import Logo from "../../../assets/img/ck.jpg"
 
+
+window.scrollTo(0,0)
+
 const posts = [
     {
       id: 1,

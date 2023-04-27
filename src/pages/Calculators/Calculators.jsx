@@ -5,6 +5,9 @@ import Idfc from "../../assets/Images/calci/IBcalc.png"
 import Save from "../../assets/Images/calci/SScalc.png"
 import Clicks from "../../assets/Images/calci/SCLcalc.png"
 import YesB from "../../assets/Images/calci/YBcalc.png"
+// import Aucalc from './Aucalc'
+
+
 import { Link } from 'react-router-dom'
 const Calculators = () => {
   return (
@@ -32,7 +35,7 @@ const Calculators = () => {
                         </div>
                         <div className="px-6 xl:px-0">
                             <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 pb-6 gap-8">
-                         <Link to="/emi-calculator">
+                         <a href="./emi">Now </a>  
                                 <div role="cell" className="bg-gray-100">
                                     <div className="bg-white  hover:shadow-lg p-5 rounded-md relative h-full w-full">
                                         {/*className="shadow-lg w-28  p-2 mb-5 rounded-full" class="absolute inset-0 object-center object-cover h-full w-full"  */}
@@ -53,7 +56,7 @@ const Calculators = () => {
                                         </a>
                                     </div>
                                 </div>
-</Link>
+
                                 <Link to="/au-calculator">
 
                                 <div role="cell" className="bg-gray-100">

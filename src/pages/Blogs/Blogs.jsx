@@ -5,6 +5,9 @@ import Blogsl from "../../assets/Images/blogs/lblogs.png"
 import Side1 from  "../../assets/Images/blogs/ccblogl.png"
 import Side2 from  "../../assets/Images/blogs/ccblogs.png"
 
+
+window.scrollTo(0,0)
+
 const Blogs = () => {
     return (
         <div className="flex justify-center items-center">

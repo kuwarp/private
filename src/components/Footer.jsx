@@ -11,14 +11,14 @@ const Footer = () => {
       <hr className="mx-auto"/>
       <footer className="sticky z-10 bg-white  ">
         <div className="mx-auto">
-          <div className="grid md:grid-cols-5 grid-cols-2  p-2 justify-between">
+          <div className="grid md:grid-cols-5 grid-cols-2 p-2 justify-between">
             <div className=" m-auto md:col-span-1 col-span-2">
                 <a href="  " className=" inline-block">
                   <img
                     
                    src={Logo}
                     alt="logo"
-                    className="w-40"
+                    className="w-36"
                   />
                 </a>
             </div>
@@ -53,13 +53,25 @@ const Footer = () => {
                 <h4 className="text-dark mb-2 text-lg font-semibold">
                   Resources
                 </h4>
-                <ul className="text-gray-600 space-y-2">
-                  <li className="text-sm list-disc">Credit Score</li>
-                  <li className="text-sm list-disc">Credit Card</li>
-                  <li className="text-sm list-disc">Credit Refine</li>
-                  <li className="text-sm list-disc">Personal Loan</li>
-                  <li className="text-sm list-disc">Buiness Loan</li>
-                  <li className="text-sm list-disc">Home Loan</li>
+                <ul className="text-gray-600 ">
+                  <Link to="/Credit-score">
+                  <li className="my-2 text-sm list-disc">Credit Score</li>
+                  </Link>
+                  <Link to="/Creditcards">
+                  <li className="my-2 text-sm list-disc">Credit Card</li>
+                  </Link>
+                  <Link to="/Refine">
+                  <li className="my-2 text-sm list-disc text-red-800 animate-bounce">Credit Refine</li>
+                  </Link>
+                  <Link to="/Personalloan">
+                  <li className="my-2 text-sm list-disc">Personal Loan</li>
+                  </Link>
+                  <Link to="/Businessloan">
+                  <li className="my-2 text-sm list-disc">Business Loan</li>
+                  </Link>
+                  <Link to="/Homeloan">
+                  <li className="my-2 text-sm list-disc">Home Loan</li>
+              </Link>
                 </ul>
               </div>
               <div className="my-5 px-5 w-full">

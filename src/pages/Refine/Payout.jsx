@@ -3,6 +3,7 @@ import heroImg from "../../assets/Images/Refine/refine2.png"
 import { Link } from 'react-router-dom';
 const Payout = () => {
   const [show, setShow] = useState(false);
+  window.scrollTo(0,0)
   return (
       <div className="py-2 bg-gray-100 overflow-y-hidden">
           {/* Code block starts */}

@@ -1,3 +1,6 @@
+import React from "react";
+window.scrollTo(0,0)
+
 const posts = [
     {
       id: 1,
@@ -19,6 +22,9 @@ const posts = [
     // More posts...
   ]
   
+
+  window.scrollTo(0,0)
+
   const IdfcGrid=()=> {
     return (
       <div className="bg-white py-24 sm:py-32">

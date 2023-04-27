@@ -38,39 +38,39 @@ const Contactstr = () => {
 
     </div>
 
-<div className="mx-auto my-16 container">
+<div className="mx-auto my-16  container">
   <p className='text-center text-teal-800 font-semibold text-3xl my-8'>OUR MEDIA COVER</p>
     <div className="grid lg:grid-cols-6 md:grid-cols-3  sm:grid-cols-2">
       <a href="https://www.einpresswire.com/article/622077441/incredible-management-service-pvt-ltd-launches-new-subsidiary-creditklick-to-revolutionize-the-credit-industry
-" target='_blank'>
-      <div className="md:my-4 lg:mx-2 border-2 m-1 border-blue-200 shadow-lg mx-auto">
-        <img className='w-full ' src={ein} alt=""  />
+" target='_blank' className='p-2'>
+      <div className="md:my-4 border-2  border-blue-200 shadow-lg mx-auto">
+        <img className='md:w-full w-3/5 mx-auto' src={ein} alt=""  />
       </div>
       </a>
-      <a href="https://fox59.com/business/press-releases/ein-presswire/622077441/incredible-management-service-pvt-ltd-launches-new-subsidiary-creditklick-to-revolutionize-the-credit-industry/" target='_blank'>
-      <div className="md:my-4 lg:mx-2 border-2 m-1 border-blue-200 shadow-lg mx-auto">
-        <img className='w-full ' src={fox} alt="" />
+      <a href="https://fox59.com/business/press-releases/ein-presswire/622077441/incredible-management-service-pvt-ltd-launches-new-subsidiary-creditklick-to-revolutionize-the-credit-industry/" target='_blank' className='p-2'>
+      <div className="md:my-4 border-2  border-blue-200 shadow-lg mx-auto">
+        <img className='md:w-full w-3/5 mx-auto ' src={fox} alt="" />
       </div>
       </a>
-      <a href="https://www.ksnt.com/business/press-releases/ein-presswire/622077441/incredible-management-service-pvt-ltd-launches-new-subsidiary-creditklick-to-revolutionize-the-credit-industry/" target='_blank'>
-      <div className="md:my-4 lg:mx-2 border-2 m-1 border-blue-200 shadow-lg mx-auto">
-        <img className='w-full ' src={ksnt} alt="" />
+      <a href="https://www.ksnt.com/business/press-releases/ein-presswire/622077441/incredible-management-service-pvt-ltd-launches-new-subsidiary-creditklick-to-revolutionize-the-credit-industry/" target='_blank' className='p-2' >
+      <div className="md:my-4 border-2  border-blue-200 shadow-lg mx-auto">
+        <img className='md:w-full w-3/5 mx-auto ' src={ksnt} alt="" />
       </div>
       </a>
-      <a href="https://www.fox21news.com/business/press-releases/ein-presswire/622077441/incredible-management-service-pvt-ltd-launches-new-subsidiary-creditklick-to-revolutionize-the-credit-industry/" target='_blank'>
-      <div className="md:my-4 lg:mx-2 border-2 m-1 border-blue-200 shadow-lg mx-auto">
-        <img className='w-full ' src={local} alt="" />
+      <a href="https://www.fox21news.com/business/press-releases/ein-presswire/622077441/incredible-management-service-pvt-ltd-launches-new-subsidiary-creditklick-to-revolutionize-the-credit-industry/" target='_blank' className='p-2'>
+      <div className="md:my-4 border-2  border-blue-200 shadow-lg mx-auto">
+        <img className='md:w-full w-3/5 mx-auto ' src={local} alt="" />
       </div>
       </a>
       <a href="https://menafn.com/1105781494/Incredible-Management-Service-Pvt-Ltd-Launches-New-Subsidiary-Creditklick-To-Revolutionize-The-Credit-Industry
-" target='_blank'>
-      <div className="md:my-4 lg:mx-2 border-2 m-1 border-blue-200 shadow-lg mx-auto">
-        <img className='w-full ' src={menafn} alt="" />
+" target='_blank' className='p-2'>
+      <div className="md:my-4 border-2  border-blue-200 shadow-lg mx-auto">
+        <img className='md:w-full w-3/5 mx-auto ' src={menafn} alt="" />
       </div>
       </a>
-      <a href="https://www.todayinbanking.com/article/622077441-incredible-management-service-pvt-ltd-launches-new-subsidiary-creditklick-to-revolutionize-the-credit-industry" target='_blank'>
-      <div className="md:my-4 lg:mx-2 border-2 m-1 border-blue-200 shadow-lg mx-auto">
-        <img className='w-full ' src={todayin} alt="" />
+      <a href="https://www.todayinbanking.com/article/622077441-incredible-management-service-pvt-ltd-launches-new-subsidiary-creditklick-to-revolutionize-the-credit-industry" target='_blank' className='p-2'>
+      <div className="md:my-4 border-2  border-blue-200 shadow-lg mx-auto">
+        <img className='md:w-full w-3/5 mx-auto ' src={todayin} alt="" />
       </div>
       </a>
     </div>

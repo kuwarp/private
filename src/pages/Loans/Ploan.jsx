@@ -44,7 +44,7 @@ const Ploan = () => {
       <div class="md:flex">
         <div class="p-10 space-y-6">
           <div class="uppercase text-xl  text-blue-900 font-semibold">PERSONAL LOAN</div>
-          <p class="mt-2 text-blue-800">CreditKlick offers personal loans from over 30+ banks and non-bank financial institutions to suit different consumer segments. Consumers can compare key loan features from top lenders and apply for the best credit option. We have also entered into unique partnerships with several banks and NBFCs to offer pre-approved/pre-qualified personal loans with end-to-end digital processing and instant disbursal. </p>
+          <p class="mt-2 text-blue-800">CreditKlick offers personal loans from more than 30 banks and non-bank financial institutions suitable for different consumer segments. Consumers can compare key loan features from the best lenders and apply for the best loan option. We have also formed unique partnerships with multiple banks and NBFCs to offer pre-approved/pre-qualified personal loans with end-to-end digital processing and instant disbursement.</p>
           <div className='flex flex-col my-6'>
   <Link to="/Personal-Information">    
                      <button class="bg-blue-400 animate-pulse hover:bg-blue-600 items-center  mx-auto  text-white font-semibold  py-2 px-4 rounded-2xl w-auto">
@@ -137,7 +137,7 @@ const Ploan = () => {
     </div>
     
     <div className='container mx-auto my-8 bg-gray-100 p-4'>
-      <p className='text-xl font-semibold text-indigo-800 text-center'>Document required for a Business Loan</p>
+      <p className='text-xl font-semibold text-indigo-800 text-center'>Document required for a Personal Loan</p>
       <p  className='text-teal-800 my-3 mx-4 text-md'>Keep the following documents on hand when filling the online application form</p>
        
       <li className='mx-5 list-disc my-1 text-md'> <b >KYC Documents - </b>
@@ -146,10 +146,12 @@ const Ploan = () => {
           Documents such as your electricity bill, rent agreement, or passport may be used as proof of address
           </li>
           <li className='mx-5 list-disc my-1 text-md'> <b >Financial Documents - </b>
-          Copy of your GST returns, bank account statement and other financial documents</li>
-     <li className='mx-5 list-disc my-1 text-md'> <b >Proof of Business Ownership - </b>
-     The registration documents for your business</li>
+          Bank account statement and other financial documents</li>
+     <li className='mx-5 list-disc my-1 text-md'> <b >Employee ID Card </b>
+     </li>
      
+
+     <p className='text-red-600'>Note- Latest Salary Slip or Form 16, Bank account statement of the last 6 months</p>
       </div>
     
     {/* eligibility ends */}

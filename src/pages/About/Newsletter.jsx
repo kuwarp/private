@@ -1,9 +1,13 @@
 import React from 'react'
 
+
+window.scrollTo(0,0)
+
+
 const Newsletter = () => {
   return (
     <>
-     <div className="container mx-auto xl:flex xl:justify-end ">
+     <div className="container my-16 mx-auto xl:flex xl:justify-end ">
             <div className="container sm:mx-auto">
                 <div className="block xl:flex justify-between xl:items-center lg:items-center md:flex">
                     <div className="w-11/12 xl:w-4/12 mx-auto xl:mx-16 md:w-5/12">
@@ -12,12 +16,12 @@ const Newsletter = () => {
                         <div className="flex w-full flex-wrap">
                             <div className="w-full">
                                 <div className="flex flex-col mb-3">
-                                    <label className="text-base font-semibold text-gray-800 mb-2" htmlFor="email">
+                                    <label className="text-lg font-semibold text-gray-800 mb-2" htmlFor="email">
                                         Email
                                     </label>
                                     <input type="email" id="email" placeholder="johnstark97@gmail.com" className="focus:outline-none focus:border-indigo-700 border-gray-300 border rounded-sm py-2 outline-none pl-2 pr-2" />
                                 </div>
-                                <button type="submit" className="focus:outline-none bg-indigo-700 hover:bg-indigo-600 text-white text-base w-full py-3 px-6 rounded">
+                                <button type="submit" className="focus:outline-none bg-indigo-700 hover:bg-indigo-600 text-white text-base w-auto py-2 px-4 rounded-lg">
                                     Subscribe to Newsletter
                                 </button>
                             </div>

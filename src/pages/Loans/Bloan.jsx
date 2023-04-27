@@ -180,15 +180,18 @@ const Bloan = () => {
   <p className='text-xl font-semibold text-indigo-800 text-center'>Document required for a Business Loan</p>
   <p  className='text-teal-800 my-3 mx-4 text-md'>Keep the following documents on hand when filling the online application form</p>
    
-  <li className='mx-5 list-disc my-1 text-md'> <b >KYC Documents - </b>
-  Aadhar card, PAN card, voter ID card, driving licence or any other government-approved KYC document</li>
-      <li className='mx-5 list-disc my-1 text-md'> <b >Address Proof - </b>
-      Documents such as your electricity bill, rent agreement, or passport may be used as proof of address
+  <li className='mx-5 list-disc my-1 text-md'> Duly filled application form along with passport size photograph</li>
+      <li className='mx-5 list-disc my-1 text-md'>KYC documents of the applicant including PAN card, Passport, Aadhar Card, Driving License, Voter ID card, Utility Bills ( Water/Electricity Bills ) 
+
       </li>
-      <li className='mx-5 list-disc my-1 text-md'> <b >Financial Documents - </b>
-      Copy of your GST returns, bank account statement and other financial documents</li>
- <li className='mx-5 list-disc my-1 text-md'> <b >Proof of Business Ownership - </b>
- The registration documents for your business</li>
+      <li className='mx-5 list-disc my-1 text-md'>Last 1 years' bank statement</li>
+ <li className='mx-5 list-disc my-1 text-md'> Copy of Non-Collateral Overdraft, if any</li>
+ <li className='mx-5 list-disc my-1 text-md'>
+ Copy of Business Incorporation
+ </li>
+ <li className='mx-5 list-disc my-1 text-md'>
+ Any other document required by the lender
+ </li>
  
   </div>
 </div>
@@ -316,11 +319,11 @@ const Bloan = () => {
                     <div class="lg:w-1/2 md:w-8/12 sm:w-9/12 w-full">
                       {/* q1 */}
                         <div class="bg-white shadow rounded p-8">
-                            <div class="flex items-center justify-between">
+                            <div class="flex items-center justify-between cursor-pointer " onClick={() => setBox1(!box1)}>
                                 <div>
                                     <h2 class="text-base md:text-xl font-semibold leading-none text-gray-800">What security do I need to provide to obtain a loan for my business?</h2>
                                 </div>
-                                <button onClick={() => setBox1(!box1)} class="focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:ring-offset-2 ring-offset-white cursor-pointer">
+                                <button  class="focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:ring-offset-2 ring-offset-white cursor-pointer">
                                     {box1 ? (
                                         <svg role="button" aria-label="close dropdown" width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path d="M1 5L5 1L9 5" stroke="#4B5563" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
@@ -345,14 +348,14 @@ const Bloan = () => {
                       
                       {/* q2 */}
                         <div class="bg-white shadow rounded p-8 mt-8">
-                            <div class="flex items-center justify-between">
+                            <div class="flex items-center justify-between cursor-pointer" onClick={() => {
+                                        setBox2(!box2);
+                                    }}>
                                 <div>
                                     <h2 class="text-base md:text-xl font-semibold leading-none text-gray-800">I am a physician and have been practicing for ten years. To start my own practice, can I get a loan for a business?</h2>
                                 </div>
                                 <button
-                                    onClick={() => {
-                                        setBox2(!box2);
-                                    }}
+                                    
                                     data-menu
                                     class="focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:ring-offset-2 ring-offset-white cursor-pointer"
                                 >
@@ -378,14 +381,14 @@ const Bloan = () => {
 
                       {/* q3 */}
                         <div class="bg-white shadow rounded p-8 mt-8">
-                            <div class="flex items-center justify-between">
+                            <div class="flex items-center justify-between cursor-pointer"  onClick={() => {
+                                        setBox3(!box3);
+                                    }}>
                                 <div>
                                     <h2 class="text-base md:text-xl font-semibold leading-none text-gray-800">Do I need to give my personal information to use the EMI calculator and calculate EMIs for my business loan?</h2>
                                 </div>
                                 <button
-                                    onClick={() => {
-                                        setBox3(!box3);
-                                    }}
+                                   
                                     data-menu
                                     class="focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:ring-offset-2 ring-offset-white cursor-pointer"
                                 >
@@ -411,11 +414,11 @@ const Bloan = () => {
 
                       {/* q4 */}
                         <div class="bg-white shadow rounded p-8 mt-8">
-                            <div class="flex items-center justify-between">
+                            <div class="flex items-center justify-between cursor-pointer" onClick={() => setBox4(!box4)}>
                                 <div>
                                     <h2 class="text-base md:text-xl font-semibold leading-none text-gray-800">What are the purposes of a business loan?</h2>
                                 </div>
-                                <button onClick={() => setBox4(!box4)} data-menu class="focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:ring-offset-2 ring-offset-white cursor-pointer">
+                                <button  data-menu class="focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:ring-offset-2 ring-offset-white cursor-pointer">
                                     {box4 ? (
                                         <svg role="button" aria-label="close dropdown" width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path d="M1 5L5 1L9 5" stroke="#4B5563" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
@@ -442,11 +445,11 @@ const Bloan = () => {
 
                       {/* q5 */}
                         <div class="bg-white shadow rounded p-8 mt-8">
-                            <div class="flex items-center justify-between">
+                            <div class="flex items-center justify-between cursor-pointer" onClick={() => setBox5(!box5)}>
                                 <div>
                                     <h2 class="text-base md:text-xl font-semibold leading-none text-gray-800">How much liquidity is the Reserve Bank of India (RBI) under the AtmarnirbharBharat Abhiyan plan?</h2>
                                 </div>
-                                <button onClick={() => setBox5(!box5)} data-menu class="focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:ring-offset-2 ring-offset-white cursor-pointer">
+                                <button  data-menu class="focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:ring-offset-2 ring-offset-white cursor-pointer">
                                     {box5 ? (
                                         <svg role="button" aria-label="close dropdown" width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path d="M1 5L5 1L9 5" stroke="#4B5563" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
@@ -470,11 +473,11 @@ const Bloan = () => {
                       
                       {/* q6 */}
                         <div class="bg-white shadow rounded p-8 mt-8">
-                            <div class="flex items-center justify-between">
+                            <div class="flex items-center justify-between cursor-pointer" onClick={() => setBox6(!box6)}>
                                 <div>
                                     <h2 class="text-base md:text-xl font-semibold leading-none text-gray-800">Does the government have a moratorium on the payment of loans to businesses?</h2>
                                 </div>
-                                <button onClick={() => setBox6(!box6)} data-menu class="focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:ring-offset-2 ring-offset-white cursor-pointer">
+                                <button  data-menu class="focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:ring-offset-2 ring-offset-white cursor-pointer">
                                     {box6 ? (
                                         <svg role="button" aria-label="close dropdown" width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path d="M1 5L5 1L9 5" stroke="#4B5563" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />

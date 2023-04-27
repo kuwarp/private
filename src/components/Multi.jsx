@@ -24,6 +24,9 @@ const responsive = {
   }
 };
 
+window.scrollTo(0,0)
+
+
 const Multi = () => {
     return ( 
         <>

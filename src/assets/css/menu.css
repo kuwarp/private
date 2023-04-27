@@ -1,0 +1,98 @@
+.nav {
+  list-style: none;
+}
+.nav:after,
+.nav:before {
+  content: " ";
+  display: table;
+}
+.nav:after {
+  clear: both;
+}
+.nav ul {
+  list-style: none;
+  width: 15em;
+}
+.nav a {
+  padding: 10px 15px;
+  color: #fff;
+}
+.nav li {
+  position: relative;
+}
+.nav > li {
+  float: left;
+}
+.nav > li > a {
+  display: block;
+  color: #fff;
+  font-weight: 600;
+  text-transform: uppercase;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  text-decoration: none;
+  font-size: 13px;
+  padding: 10px 15px;
+  letter-spacing: 1.5px;
+}
+.nav li ul {
+  position: absolute;
+  left: -9999px;
+}
+.nav > li.hover > ul {
+  left: 0;
+}
+.nav li li.hover ul {
+  left: 100%;
+  top: 0;
+}
+.nav li li a {
+  display: block;
+  background: #333;
+  position: relative;
+  z-index: 100;
+  font-weight: 600;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+@media screen and (max-width: 768px) {
+  .active {
+    display: block;
+  }
+  .nav > li {
+    float: none;
+  }
+  .nav > li > .parent {
+    background-position: 95% 50%;
+  }
+  .nav li li .parent {
+    /* background: url(../images/downArrow.png); */
+    background-repeat: no-repeat;
+    background-position: 95% 50%;
+  }
+  .nav ul {
+    display: block;
+    width: 100%;
+  }
+  .nav li li.hover ul,
+  .nav > li.hover > ul {
+    position: static;
+  }
+}
+.nav > li > a:focus,
+.nav > li > a:hover {
+  background: rgba(0, 0, 0, 0);
+}
+a:hover {
+  text-decoration: none;
+}
+.nav li li a:hover {
+  color: #efd845;
+}
+.nav > li > a:hover {
+  color: #efd845;
+}
+.shrunk .nav > li > a {
+  color: #444;
+}
