@@ -10,6 +10,8 @@ import YesB from "../../assets/Images/calci/YBcalc.png"
 
 import { Link } from 'react-router-dom'
 const Calculators = () => {
+window.scrollTo(0,0)
+
   return (
     <>
 

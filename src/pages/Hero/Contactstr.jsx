@@ -9,6 +9,8 @@ import todayin from "../../assets/Images/media/todayin.png"
 
 
 const Contactstr = () => {
+window.scrollTo(0,0)
+
   return (
     <>  <main>
     <div className="mx-auto max-w-7xl mt-16">

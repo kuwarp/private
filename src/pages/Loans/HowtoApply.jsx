@@ -32,6 +32,8 @@ const stepstoapply =[
 
 const HowtoApply = () => {
     const [apply, setApply] = useState(stepstoapply);
+window.scrollTo(0,0)
+
   return (
     <>
 

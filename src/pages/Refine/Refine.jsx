@@ -24,6 +24,8 @@ const Refine = () => {
   const [box3, setBox3] = useState(false);
   const [box4, setBox4] = useState(false);
   const [box5, setBox5] = useState(false);
+window.scrollTo(0,0)
+
   return (
     <>
 

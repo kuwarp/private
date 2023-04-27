@@ -21,10 +21,10 @@ const insideStyles = {
     top: "40%",
     left: "10%",
   };
-  window.scrollTo(0,0)
-
+  
   
   export default function About() {
+    window.scrollTo(0,0)
     return (
         <>
       <div className="relative isolate overflow-hidden pb-10">

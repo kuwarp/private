@@ -3,6 +3,8 @@ import "./car.css"
 import"../../index.css"
 import sliderImageUrl from "./sliderImageUrl"
 const Carousel = () => {
+window.scrollTo(0,0)
+
   return (
 	<div div className='container mx-auto'> <div className='md:text-5xl mb-4 text-4xl font-semibold ml-4 text-start'>Our Partners</div>
 	

@@ -7,6 +7,7 @@ import Product from '../Product'
 import { Link } from 'react-router-dom'
 
 const YesCards = () => {
+window.scrollTo(0,0)
   
   return (
   

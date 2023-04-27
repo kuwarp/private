@@ -1,11 +1,11 @@
 import React from 'react'
 
 
-window.scrollTo(0,0)
 
 
 const Newsletter = () => {
-  return (
+    window.scrollTo(0,0)
+    return (
     <>
      <div className="container my-16 mx-auto xl:flex xl:justify-end ">
             <div className="container sm:mx-auto">

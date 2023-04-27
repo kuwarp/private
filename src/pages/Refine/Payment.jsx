@@ -4,6 +4,8 @@ import Exp from "../../assets/Images/expert.gif"
 import Compare from './Compare'
 import char from "./challanges"
 const Payment = () => {
+window.scrollTo(0,0)
+
   return (
     <>
     {/* Hero Start */}

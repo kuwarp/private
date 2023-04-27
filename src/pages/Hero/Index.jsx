@@ -5,6 +5,8 @@ import "pure-react-carousel/dist/react-carousel.es.css";
 /* Install pure-react-carousel using -> npm i pure-react-carousel */
 
 const Index=()=> {
+window.scrollTo(0,0)
+
     return (
         <div className="container mx-auto">
             <div className="flex items-center justify-center w-full h-full py-24 sm:py-8 px-4">

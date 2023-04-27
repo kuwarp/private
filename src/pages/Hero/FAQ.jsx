@@ -9,6 +9,7 @@ const FAQ = () => {
     const [show3, setShow3] = useState(false);
     const [show4, setShow4] = useState(false);
     const [show5, setShow5] = useState(false);
+    window.scrollTo(0,0)
 
     return (
         <div className="container mt-28 mx-auto md:py-12 lg:px-20 md:px-6 py-9 px-4">

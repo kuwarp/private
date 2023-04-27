@@ -5,33 +5,33 @@ import { useState } from 'react'
 import { ToastContainer, toast } from 'react-toastify';
   import 'react-toastify/dist/ReactToastify.css';
 
-  window.scrollTo(0,0)
-
-
-const Stepfirst = () => {
-   
-    const [phone, setPhone]= useState('');
-    const navigate = useNavigate();
-    const Submithandle=()=>{
-        
-    const phoneRegex = /^(\+91|0)?[6789]\d{9}$/;
-    if (phoneRegex.test(phone)) {
-       navigate('/Adress')
-      } else {
-        toast.warn('Check Your Mobile number', {
-            position: "top-center",
-            autoClose: 5000,
-            hideProgressBar: false,
-            closeOnClick: true,
-            pauseOnHover: true,
-            draggable: true,
-            progress: undefined,
-            theme: "colored",
-            });
-      }
-    }
+  
+  
+  const Stepfirst = () => {
+      
+      const [phone, setPhone]= useState('');
+      const navigate = useNavigate();
+      const Submithandle=()=>{
+          
+          const phoneRegex = /^(\+91|0)?[6789]\d{9}$/;
+          if (phoneRegex.test(phone)) {
+              navigate('/Adress')
+            } else {
+                toast.warn('Check Your Mobile number', {
+                    position: "top-center",
+                    autoClose: 5000,
+                    hideProgressBar: false,
+                    closeOnClick: true,
+                    pauseOnHover: true,
+                    draggable: true,
+                    progress: undefined,
+                    theme: "colored",
+                });
+            }
+        }
+        window.scrollTo(0,0)
   return (  
-    <>
+      <>
     
     <div className="container w-full my-6 mx-auto">
         <div className=" flex flex-cols md:flex-cols-1 lg:flex-rows-3">

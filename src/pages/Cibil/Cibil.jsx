@@ -10,6 +10,8 @@ function classNames(...classes) {
 }
 const Cibil = () => {
   const [agreed, setAgreed] = useState(false)
+window.scrollTo(0,0)
+
   return (
     <>
      <div className="flex h-full  sm:flex-row  w-auto">

@@ -11,6 +11,8 @@ import StepFirst from "../Auth/StepFirst"
 import { Link,Routes,Route } from "react-router-dom";
 // import { CalendarDaysIcon, HandRaisedIcon } from '@heroicons/react/24/outline'
 const Creditcard = () => {
+window.scrollTo(0,0)
+
   return (
     <>
       <div>

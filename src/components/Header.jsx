@@ -121,6 +121,8 @@ const [phone, setPhone]= useState('');
             });
       }
     }
+  window.scrollTo(0,0)
+
   return (
     <>
     <header className="bg-gray-100 h-20 navsticky">

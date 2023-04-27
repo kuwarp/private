@@ -8,6 +8,8 @@ import { Link } from 'react-router-dom'
 import Product from '../Product'
 
 const IdfcCards = () => {
+window.scrollTo(0,0)
+
   return (
     <>
 

@@ -2,10 +2,10 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 
-window.scrollTo(0,0)
 
 const Error = () => {
-  return (
+    window.scrollTo(0,0)
+    return (
     <>
     {/* <main className=" h-auto  bg-white">
   

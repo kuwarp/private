@@ -24,10 +24,10 @@ const responsive = {
   }
 };
 
-window.scrollTo(0,0)
 
 
 const Multi = () => {
+  window.scrollTo(0,0)
     return ( 
         <>
 

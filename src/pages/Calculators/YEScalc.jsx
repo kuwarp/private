@@ -28,6 +28,8 @@ const SBIclick = () => {
     if(spending*12>=150000){
         annual = 999;
     }
+window.scrollTo(0,0)
+
   return (
     <>
         <div className=" container grid md:grid-cols-2 grid-cols-1 mx-auto">

@@ -9,6 +9,9 @@ const insideStyles = {
   };
 const Contact = () => {
     const [show, setshow] = useState(false);
+
+window.scrollTo(0,0)
+
   return (
     <>
      <div className="relative  isolate overflow-hidden pb-10">

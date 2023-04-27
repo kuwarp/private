@@ -23,9 +23,9 @@ const posts = [
   ]
   
 
-  window.scrollTo(0,0)
-
+  
   const IdfcGrid=()=> {
+    window.scrollTo(0,0)
     return (
       <div className="bg-white py-24 sm:py-32">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">

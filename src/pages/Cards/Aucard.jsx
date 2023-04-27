@@ -11,6 +11,8 @@ import HoverDropdown from '../Auth/Hover'
 
 const Aucard = () => {
   // const [open, setOpen] = useState(false);
+window.scrollTo(0,0)
+
   return (
     <>
     <div className="container mx-auto h-auto rounded-3xl shadow-lg bg-blue-100">

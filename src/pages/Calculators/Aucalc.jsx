@@ -52,6 +52,8 @@ const Aucalc = () => {
     //   // 👇️ value of input field
     //   console.log('handleClick', spending);
     // };
+window.scrollTo(0,0)
+
   return (
     <>
         <div className=" container grid md:grid-cols-2 grid-cols-1 mx-auto">

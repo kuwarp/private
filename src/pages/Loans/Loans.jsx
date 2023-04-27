@@ -56,6 +56,8 @@ const loansteps = [
 const Loans = () => {
   const [list, setList] = useState(loandetails);
   const [step, setStep] = useState(loansteps);
+window.scrollTo(0,0)
+
   return (
     <>
     <div className="">

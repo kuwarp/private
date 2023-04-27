@@ -23,6 +23,8 @@ const insideStyles = {
   };
   
   export default function Privacy() {
+window.scrollTo(0,0)
+
     return (
        <>
        

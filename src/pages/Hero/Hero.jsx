@@ -15,6 +15,7 @@ import FAQ from './FAQ'
 // import test from "../../assets/Images/CScore.png"
 
 const Hero = () => {
+window.scrollTo(0,0)
     
   return (
     <div className=' w-full ' >

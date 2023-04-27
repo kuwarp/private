@@ -2,6 +2,8 @@ import React from 'react'
 import Cibilg from "../../assets/Images/hscore.png"
 import { Link } from 'react-router-dom'
 const Cibilstr = () => {
+window.scrollTo(0,0)
+
   return (
     <>
     <div className="relative shadow-lg rounded-xl p-8  overflow-hidden bg-white">
