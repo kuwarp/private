@@ -11,7 +11,7 @@ const Confirm = () => {
         <div className="grid grid-cols-1  justify-center mx-auto">
         <p className="md:text-5xl text-3xl text-green-800  text-center"> CONGRATULATIONS</p>
         <img src={success} alt="" className='m-auto md:w-1/5 w-2/5 transition duration-0'/>
-        <p className='md:text-4xl text=2xl text-green-900 uppercase text-center'>Your Payment is being successful</p>
+        <p className='md:text-4xl text=2xl text-green-900 uppercase text-center'>Transaction completed successfully</p>
         </div>
 
         <div className="my-2 md:w-3/5 mx-auto p-2">

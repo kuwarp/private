@@ -24,7 +24,6 @@ const Refine = () => {
   const [box3, setBox3] = useState(false);
   const [box4, setBox4] = useState(false);
   const [box5, setBox5] = useState(false);
-window.scrollTo(0,0)
 
   return (
     <>
@@ -70,7 +69,7 @@ window.scrollTo(0,0)
          
 
       <div className="  md:flex justify-center w-full">
-          <div className="flex flex-col items-center md:items-end md:pr-12 md:border-r-4 border-gray-300 relative md:w-1/2">
+          <div className="flex flex-col items-center md:items-end md:pr-12 md:border-r-4 border-gray-300  md:w-1/2">
             <div aria-label="sign up" role="img" className='w-40'>
               <img className="focus:outline-none mt-10" src={login} alt="how it work" />
             </div>
@@ -205,7 +204,7 @@ window.scrollTo(0,0)
 < div className = "  2xl:mx-auto 2xl:container md:px-20 px-4 " > 
                     {/* < img src = {Cnt} alt = " city view " className = "opacity-30 w-full h-full rounded-md object-center object-fill absolute sm:block hidden " />    
                     < img src = " https://i.ibb.co/LQpxBsc/mobile.png " alt = " city view " className = " opacity-20 w-full h-full rounded-md absolute object-center object-fill sm:hidden " />     */}
-                    < div className = " text-xl relative z-20 bg-gradient-to-r from-blue-500 to-blue-100 md:flex flex-row-2 w-full top-0  md:p-16 p-8 justify-between rounded-md ring-1 ring-blue-100" > 
+                    < div className = " text-xl  bg-gradient-to-r from-blue-500 to-blue-100 md:flex flex-row-2 w-full top-0  md:p-16 p-8 justify-between rounded-md ring-1 ring-blue-100" > 
                         <div className='space-y-8'> 
                             <h1 className = "md:text-5xl text-3xl font-bold md:leading-10 leading-9 text-white w-auto" >Book a Call with Expert  </h1> 
                             <p className = "text-xl font-semibold text-blue-900 leading-6 w-auto mt-4" >Need personalized guidance to solve your question? Don't worry!<br/> Call a trained credit professional to make an appointment. </p> 

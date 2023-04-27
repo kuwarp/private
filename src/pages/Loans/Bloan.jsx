@@ -71,7 +71,7 @@ window.scrollTo(0,0)
       <p className='text-semibold text-base text-blue-900 my-2'>Small businesses and entrepreneurs can get business loans to meet their capital needs. Over 20 financial institutions offer tailored business loans at attractive rates to meet your financial needs.</p>
       <div className='flex flex-col  my-6'>
   <Link to="/Personal-Information">    
-                     <button class="bg-blue-400 animate-pulse hover:bg-blue-600 items-center  mx-auto  text-white font-semibold  py-2 px-4 rounded-2xl w-auto">
+                     <button class="bg-blue-400 hover:bg-blue-600 items-center  mx-auto  text-white font-semibold  py-2 px-4 rounded-2xl w-auto">
     Apply Now
   </button></Link> 
   </div>
@@ -123,7 +123,7 @@ window.scrollTo(0,0)
 
 <div className='flex flex-col items-center  my-6'>
   <Link to="/Personal-Information">    
-                     <button class="bg-blue-400 animate-pulse hover:bg-blue-600 items-center  mx-auto  text-white font-semibold  mt-8 py-2 px-4 rounded-2xl w-auto">
+                     <button class="bg-blue-400 hover:bg-blue-600 items-center  mx-auto  text-white font-semibold  mt-8 py-2 px-4 rounded-2xl w-auto">
     Apply Now
   </button></Link> 
   </div>
@@ -173,7 +173,7 @@ window.scrollTo(0,0)
 
   {/* <div className='flex flex-col items-center   my-6'>
   <Link to="/Personal-Information">    
-                     <button class="bg-blue-400 animate-pulse hover:bg-blue-600 items-center  mx-auto  text-white font-semibold  mt-8 py-2 px-4 rounded-2xl w-auto">
+                     <button class="bg-blue-400  hover:bg-blue-600 items-center  mx-auto  text-white font-semibold  mt-8 py-2 px-4 rounded-2xl w-auto">
     Apply Now
   </button></Link> 
   </div> */}
@@ -207,7 +207,7 @@ window.scrollTo(0,0)
           {/* how to apply ends */}
           <div className='flex flex-col items-center   my-6'>
   <Link to="/Personal-Information">    
-                     <button class="bg-blue-400 animate-pulse hover:bg-blue-600 items-center  mx-auto  text-white font-semibold  mt-8 py-2 px-4 rounded-2xl w-auto">
+                     <button class="bg-blue-400 hover:bg-blue-600 items-center  mx-auto  text-white font-semibold  mt-8 py-2 px-4 rounded-2xl w-auto">
     Apply Now
   </button></Link> 
   </div>
@@ -505,7 +505,7 @@ window.scrollTo(0,0)
 {/* FAQ ENDS */}
 <div className='flex flex-col items-center  my-6'>
   <Link to="/Personal-Information">    
-                     <button class="bg-blue-400 animate-pulse hover:bg-blue-600 items-center  mx-auto  text-white font-semibold  mt-8 py-2 px-4 rounded-2xl w-auto">
+                     <button class="bg-blue-400 hover:bg-blue-600 items-center  mx-auto  text-white font-semibold  mt-8 py-2 px-4 rounded-2xl w-auto">
     Apply Now
   </button></Link> 
   </div>

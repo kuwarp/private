@@ -77,6 +77,7 @@ const Main = () => {
   
   <Route path="/queries" exact element={<Payout/>}/>
   <Route path="/payments" exact element={<Payment/>}/>
+  <Route path="/confirmation" exact element={<Confirm/>}/>
 
   {/* Auth Routing */}
 
@@ -96,7 +97,7 @@ const Main = () => {
 </Routes>
 <Footer/>
 <ToTop />
-   <Confirm />
+   
 </BrowserRouter>
 {/* <About/> */}
     </div>

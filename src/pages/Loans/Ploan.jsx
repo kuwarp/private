@@ -49,7 +49,7 @@ window.scrollTo(0,0)
           <p class="mt-2 text-blue-800">CreditKlick offers personal loans from more than 30 banks and non-bank financial institutions suitable for different consumer segments. Consumers can compare key loan features from the best lenders and apply for the best loan option. We have also formed unique partnerships with multiple banks and NBFCs to offer pre-approved/pre-qualified personal loans with end-to-end digital processing and instant disbursement.</p>
           <div className='flex flex-col my-6'>
   <Link to="/Personal-Information">    
-                     <button class="bg-blue-400 animate-pulse hover:bg-blue-600 items-center  mx-auto  text-white font-semibold  py-2 px-4 rounded-2xl w-auto">
+                     <button class="bg-blue-400  hover:bg-blue-600 items-center  mx-auto  text-white font-semibold  py-2 px-4 rounded-2xl w-auto">
     Apply Now
   </button></Link> 
   </div>
@@ -97,7 +97,7 @@ window.scrollTo(0,0)
     
     <div className='flex flex-col items-center  my-6'>
   <Link to="/Personal-Information">    
-                     <button class="bg-blue-400 animate-pulse hover:bg-blue-600 items-center  mx-auto  text-white font-semibold  mt-8 py-2 px-4 rounded-2xl w-auto">
+                     <button class="bg-blue-400  hover:bg-blue-600 items-center  mx-auto  text-white font-semibold  mt-8 py-2 px-4 rounded-2xl w-auto">
     Apply Now
   </button></Link> 
   </div>
@@ -162,7 +162,7 @@ window.scrollTo(0,0)
 
       <div className='flex flex-col items-center   my-6'>
   <Link to="/Personal-Information">    
-                     <button class="bg-blue-400 animate-pulse hover:bg-blue-600 items-center mx-auto text-white font-semibold mt-8 py-2 px-4 rounded-2xl w-auto">
+                     <button class="bg-blue-400  hover:bg-blue-600 items-center mx-auto text-white font-semibold mt-8 py-2 px-4 rounded-2xl w-auto">
     Apply Now
   </button></Link> 
   </div>
@@ -171,7 +171,7 @@ window.scrollTo(0,0)
 
 
 <div>
-                <img src="https://i.ibb.co/DQ4FZhL/pattern-bg.png" alt="blue pattern background" class="absolute w-full h-64 md:h-96 object-center object-fit z-0" />
+                <img src="https://i.ibb.co/DQ4FZhL/pattern-bg.png" alt="blue pattern background" class="absolute w-full h-64 md:h-96 object-center object-fit z-" />
                 <div class="relative flex flex-col items-center justify-center sm:px-0 px-6 z-20 pb-10">
                     <div class="md:py-36 py-20">
                         <h1 role="heading" class="xl:text-6xl md:text-5xl text-xl font-semibold leading-10 text-white">
@@ -361,7 +361,7 @@ window.scrollTo(0,0)
 {/* FAQ ENDS */}
 <div className='flex flex-col items-center  mb-6'>
   <Link to="/Personal-Information">    
-                     <button class="bg-blue-400 animate-pulse hover:bg-blue-600 items-center  mx-auto  text-white font-semibold  py-2 px-4 rounded-2xl w-auto">
+                     <button class="bg-blue-400 hover:bg-blue-600 items-center mx-auto text-white font-semibold py-2 px-4 rounded-2xl w-auto">
     Apply Now
   </button></Link> 
   </div>

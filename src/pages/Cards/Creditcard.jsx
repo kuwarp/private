@@ -202,7 +202,7 @@ window.scrollTo(0,0)
                     
                   </table>
                   <Link to="/Personal-Information">    
-                   <button class="bg-blue-400 animate-pulse hover:bg-blue-600  mx-auto text-white font-semibold flex mt-8 py-2 px-4 rounded-2xl w-auto">
+                   <button class="bg-blue-400 hover:bg-blue-600  mx-auto text-white font-semibold flex mt-8 py-2 px-4 rounded-2xl w-auto">
   Apply Now
 </button></Link> 
                 </div>

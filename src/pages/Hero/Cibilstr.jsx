@@ -6,7 +6,7 @@ window.scrollTo(0,0)
 
   return (
     <>
-    <div className="relative shadow-lg rounded-xl p-8  overflow-hidden bg-white">
+    <div className=" shadow-lg rounded-xl p-8  bg-white">
       <div className=" grid md:grid-cols-2 grid-cols-1 justify-between">
           <div className="sm:max-w-lg m-auto space-y-8">
             <h1 className=" text-3xl font-semibold tracking-tight text-blue-900 md:text-5xl">

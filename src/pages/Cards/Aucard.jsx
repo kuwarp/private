@@ -26,7 +26,7 @@ window.scrollTo(0,0)
           <p className='text-semibold text-base text-blue-900 my-2 p-2'>AU Bank Credit Cards are designed to cater to the diverse spending habits and lifestyles of customers. With a range of credit cards to choose from, you can select the one that best suits your financial needs. AU Bank Credit Cards offer benefits such as rewards on dining, travel, and entertainment expenses, airport lounge access, travel insurance, and concierge services. They also come with features like fuel surcharge waivers, low-interest rates, higher credit limits, expense management tools, and customized reporting.</p>
           <div className=' mt-6 mx-auto justify-center'>
           <Link to="/Personal-Information">    
-                   <button class="bg-blue-400 animate-pulse hover:bg-blue-600 items-center  mx-autotext-white font-semibold  mt-8 py-2 px-4 rounded-2xl w-auto">
+                   <button class="bg-blue-400 hover:bg-blue-600 items-center  mx-autotext-white font-semibold  mt-8 py-2 px-4 rounded-2xl w-auto">
   Apply Now
 </button></Link>     </div>
         </div>

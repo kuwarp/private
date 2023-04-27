@@ -38,7 +38,7 @@ const Hloan = () => {
       
           <div className='flex flex-col   my-6'>
   <Link to="/Personal-Information">    
-                     <button class="bg-blue-400 animate-pulse hover:bg-blue-600 items-center  mx-auto  text-white font-semibold py-2 px-4 rounded-2xl w-auto">
+                     <button class="bg-blue-400 hover:bg-blue-600 items-center  mx-auto  text-white font-semibold py-2 px-4 rounded-2xl w-auto">
     Apply Now
   </button></Link> 
   </div>
@@ -94,7 +94,7 @@ const Hloan = () => {
 
 <div className='flex flex-col  items-center my-6'>
 <Link to="/Personal-Information">    
-                   <button class="bg-blue-400 animate-pulse hover:bg-blue-600 items-center  mx-auto lg:mx-96 text-white font-semibold  mt-8 py-2 px-4 rounded-2xl w-auto">
+                   <button class="bg-blue-400 hover:bg-blue-600 items-center  mx-auto lg:mx-96 text-white font-semibold  mt-8 py-2 px-4 rounded-2xl w-auto">
   Apply Now
 </button></Link> 
 </div>
@@ -195,7 +195,7 @@ const Hloan = () => {
 
     <div className='flex flex-col  items-center my-6'>
 <Link to="/Personal-Information">    
-                   <button class="bg-blue-400 animate-pulse hover:bg-blue-600 items-center  mx-auto lg:mx-96 text-white font-semibold  mt-8 py-2 px-4 rounded-2xl w-auto">
+                   <button class="bg-blue-400 hover:bg-blue-600 items-center  mx-auto lg:mx-96 text-white font-semibold  mt-8 py-2 px-4 rounded-2xl w-auto">
   Apply Now
 </button></Link> 
 </div>
@@ -393,7 +393,7 @@ Based on the caps set in the RBI on LTV ratios, banks/HFCs also determine the LT
 {/* FAQ ENDS */}
 <div className='flex flex-col  items-center mb-6'>
 <Link to="/Personal-Information">    
-                   <button class="bg-blue-400 animate-pulse hover:bg-blue-600 items-center  mx-auto lg:mx-96 text-white font-semibold py-2 px-4 rounded-2xl w-auto">
+                   <button class="bg-blue-400 hover:bg-blue-600 items-center  mx-auto lg:mx-96 text-white font-semibold py-2 px-4 rounded-2xl w-auto">
   Apply Now
 </button></Link> 
 </div>
