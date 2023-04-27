@@ -39,6 +39,7 @@ import YEScalc from './pages/Calculators/YEScalc';
 import Payout from './pages/Refine/Payout';
 import Payment from './pages/Refine/Payment';
 import ToTop from './components/ToTop';
+import Confirm from './pages/Refine/Confirm';
 // import Stripehead from './components/Stripehead';
 const Main = () => {
   return (
@@ -95,9 +96,9 @@ const Main = () => {
 </Routes>
 <Footer/>
 <ToTop />
+   <Confirm />
 </BrowserRouter>
 {/* <About/> */}
-   
     </div>
   )
 }

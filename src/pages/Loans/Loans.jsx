@@ -145,7 +145,7 @@ With so many loan offerings, it can be difficult to choose the right one. That's
 }
 <div className='flex flex-col  items-center my-6'>
 <Link to="/Personal-Information">    
-                   <button class="bg-blue-400 animate-pulse hover:bg-blue-600 items-center  mx-auto lg:mx-96 text-white font-semibold  mt-8 py-2 px-4 rounded-2xl w-auto">
+                   <button class="bg-blue-400  hover:bg-blue-600 items-center  mx-auto text-white font-semibold  mt-8 py-2 px-4 rounded-2xl w-auto">
   Apply Now
 </button></Link> 
 </div>
@@ -174,7 +174,7 @@ step.map((items)=>(
 {/* loan content end */}
 <div className='flex flex-col  items-center my-6'>
 <Link to="/Personal-Information">    
-                   <button class="bg-blue-400 animate-pulse hover:bg-blue-600 items-center  mx-auto lg:mx-96 text-white font-semibold  mt-8 py-2 px-4 rounded-2xl w-auto">
+                   <button class="bg-blue-400 hover:bg-blue-600 items-center  mx-auto lg:mx-96 text-white font-semibold  mt-8 py-2 px-4 rounded-2xl w-auto">
   Apply Now
 </button></Link> 
 </div>

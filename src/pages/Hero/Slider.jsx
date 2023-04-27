@@ -58,7 +58,6 @@ export default function Slider() {
     setCurrentIndex(count);
     slideRef.current.classList.add("fade-anim");
   };
-  window.scrollTo(0,0)
 
   return (
     <div ref={slideRef} className="pb-10 shadow-lg select-none relative">

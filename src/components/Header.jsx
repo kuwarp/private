@@ -125,7 +125,7 @@ const [phone, setPhone]= useState('');
 
   return (
     <>
-    <header className="bg-gray-100 h-20 navsticky">
+    <header className="bg-gray-100 bg-opacity-100 h-20 navsticky">
       <nav className="mx-auto flex max-w-7xl items-center justify-between lg:px-8" aria-label="Global">
         <div className="flex lg:flex-1">
           <Link to="/" className="-mx-1.5 p-1.5 my-2">
