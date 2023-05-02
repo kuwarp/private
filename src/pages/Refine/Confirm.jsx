@@ -32,6 +32,8 @@ const Confirm = () => {
   <p className='my-2 font-semibold'>COUNSELLOR'S NUMBER- 8800367367 </p>
   <p className='my-2 font-semibold'>YOU WILL BE CONTACTED WITHIN 24hrs. <br /> FROM 11:00a.m. to 5:00p.m. ON WORKING DAYS</p>
   <p className='my-2 font-semibold'>EMAIL ID- <a href="mailto: support@CreditKlick.com" className='text-blue-700 underline'>  support@CreditKlick.com</a></p>
+  <p className='my-2 font-semibold'>YOU CAN ALSO CONNECT WITH US ON WHATSAPP VIA <a href=" https://wa.me/<>" className='text-blue-700'> +91**********</a></p>
+
 <div className="flex md:flex-col-2 flex-col-1 justify-between">
     <p className='font-semibold'>FOLLOW US ON</p>
     <div className="mb-2 flex items-center">
@@ -73,7 +75,7 @@ const Confirm = () => {
 </div>
 </div>
         </div> 
- <p className='text-xl font-semibold text-blue-500 text-center my-5 uppercase'>Explore CreditKlick</p>
+ <p className='text-xl font-semibold text-blue-500 text-center my-5 uppercase'>Keep your credit report handy once the counsellor contacts you.</p>
         <Link to="/">    
                      <button class="bg-blue-400 hover:bg-blue-600 items-center my-2 mx-auto  text-white font-semibold flex mx-auto py-2 px-4 rounded-2xl w-auto">
     CHECK NOW

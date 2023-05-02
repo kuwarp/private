@@ -209,9 +209,9 @@ const Refine = () => {
                             <h1 className = "md:text-5xl text-3xl font-bold md:leading-10 leading-9 text-white w-auto" >Book a Call with Expert  </h1> 
                             <p className = "text-xl font-semibold text-blue-900 leading-6 w-auto mt-4" >Need personalized guidance to solve your question? Don't worry!<br/> Call a trained credit professional to make an appointment. </p> 
                         </div> 
-                                                < div className = "flex my-auto md:pt-0 pt-8" > 
+                                                < div className = "flex m-auto md:pt-0 pt-8" > 
                                                 <Link to="/queries">
-                            < button className = " text-base  font-medium text-white bg-gradient-to-r h-12 px-4 from-blue-500 to-blue-300 w-auto rounded  hover:bg-gray-100  mx-auto " > TALK TO TEAM </ button > 
+                            < button className = " text-base md:border-0 border-2 border-blue-500 font-medium text-white bg-gradient-to-r h-12 px-4 from-blue-500 to-blue-300 w-auto rounded  hover:bg-gray-100  mx-auto " > TALK TO TEAM </ button > 
                             </Link>
                         </div> 
                                             </div> 

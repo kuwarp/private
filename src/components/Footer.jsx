@@ -61,7 +61,7 @@ const Footer = () => {
                   <li className="my-2 text-sm list-disc">Credit Card</li>
                   </Link>
                   <Link to="/Refine">
-                  <li className="my-2 text-sm list-disc text-red-800 animate-bounce">Credit Refine</li>
+                  <li className="my-2 text-sm list-disc text-purple-500 bg-gradient-to-l from-pink-200 to-pink-100 w-28 rounded-lg p-1 animate-bounce">Credit Refine</li>
                   </Link>
                   <Link to="/Personalloan">
                   <li className="my-2 text-sm list-disc">Personal Loan</li>
@@ -141,7 +141,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-             <p className="text-red-800 mb-7 text-lg"> <marquee behavior="scroll" direction="left">
+             <p className="text-red-800 mb-7 text-lg select-none"> <marquee behavior="scroll" direction="left">
                 CreditKlick does not sell any loans on our own and do not charge any fee from any customers/viewers. We advise customers/viewers to choose from best offers from Banks and its advertisers. We do not guarantee any loans as loan sanction is as per Banks and Nbfcs. We suggest all users to never pay any upfront amount for any loan disbursal and if any person who call you as representative of CreditKlick and ask for any amount report the incident immediately via putting us a mail at <a href="mailto:support@creditklick.com">support@creditklick.com</a>
                 </marquee>  </p>
         <div>

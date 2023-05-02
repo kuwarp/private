@@ -37,7 +37,7 @@ window.scrollTo(0,0)
                         </div>
                         <div className="px-6 xl:px-0">
                             <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 pb-6 gap-8">
-                         <a href="./emi">Now </a>  
+                         <Link to="/emi-calculator">
                                 <div role="cell" className="bg-gray-100">
                                     <div className="bg-white  hover:shadow-lg p-5 rounded-md relative h-full w-full">
                                         {/*className="shadow-lg w-28  p-2 mb-5 rounded-full" class="absolute inset-0 object-center object-cover h-full w-full"  */}
@@ -58,7 +58,7 @@ window.scrollTo(0,0)
                                         </a>
                                     </div>
                                 </div>
-
+                                </Link> 
                                 <Link to="/au-calculator">
 
                                 <div role="cell" className="bg-gray-100">

@@ -1,0 +1,22 @@
+.truncate {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+   
+}
+@media screen and (min-width: 768px) {
+    .truncate {
+        width: 600px;
+    }
+  }
+
+.expand {
+    white-space: normal;
+    overflow: visible;
+    text-overflow: clip;
+}
+@media screen and (min-width: 768px) {
+    .expand {
+        width: 600px;
+    }
+  }

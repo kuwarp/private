@@ -73,7 +73,7 @@ const Main = () => {
   <Route path="/sbisave-calculator" exact element={<SBIsave />}/>
   <Route path="/sbiclick-calculator" exact element={<SBIclick />}/>
   <Route path="/yes-calculator" exact element={<YEScalc />}/>  
-  {/* <Route path="/emi-calculator" exact element={<Homecalc />}/> */}
+  <Route path="/emi-calculator" exact element={<Homecalc />}/>
   
   <Route path="/queries" exact element={<Payout/>}/>
   <Route path="/payments" exact element={<Payment/>}/>

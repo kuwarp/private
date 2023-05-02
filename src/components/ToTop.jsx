@@ -30,7 +30,7 @@ const [isVisible, setIsVisible] = useState(false);
     <>
     <div className='justify-end flex m-5 z-100 sticky'>
       <button className='w-8 h-8 rounded-full bg-blue-800 hover:bg-blue-600'  onClick={handleClick}>
-      <FontAwesomeIcon icon={faArrowUp} className=' z-10' />
+      <FontAwesomeIcon icon={faArrowUp} className='z-10' />
       </button>
     </div>
 
