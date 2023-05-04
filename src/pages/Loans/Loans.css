@@ -43,8 +43,8 @@
   float: right;
   margin: 0;
   padding: 0;
-  -webkit-animation: scrollUp 4s ease-in-out infinite ;
-          animation: scrollUp 4s ease-in-out infinite ;
+  -webkit-animation: scrollUp 4s linear infinite ;
+          animation: scrollUp 4s linear infinite ;
         
 }
 .loanslider li {
@@ -60,8 +60,8 @@
             transform: translateY(0);
   }
   to {
-    -webkit-transform: translateY(-90%);
-            transform: translateY(-90%);
+    -webkit-transform: translateY(-100%);
+            transform: translateY(-100%);
   }
 }
 
@@ -71,8 +71,8 @@
             transform: translateY(0);
   }
   to {
-    -webkit-transform: translateY(-80%);
-            transform: translateY(-80%);
+    -webkit-transform: translateY(-100%);
+            transform: translateY(-100%);
   }
 }
 

@@ -1,5 +1,13 @@
 const credittable=[
     {
+        creditcard:'IDFC Bank',
+        category:'Reward Points'
+    },
+    {
+        creditcard:'AU Bank',
+        category:'Reward Points'
+    },
+    {
 creditcard:'RBL Bank',
 category:'Reward Points'
     },

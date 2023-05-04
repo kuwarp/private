@@ -2,6 +2,7 @@ import React, { useState } from "react";
 
 export default function Index() {
     const [show, setshow] = useState(true);
+    window.scrollTo(0,0)
 
     return (
         <div className="bg-gray-800">

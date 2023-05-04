@@ -2,6 +2,8 @@
 import{useState} from "react"
 import Logo from "../../../assets/img/ck.jpg"
 
+
+
 const posts = [
     {
       id: 1,
@@ -77,6 +79,8 @@ const posts = [
        const [need, setNeed] = useState(false);
         const [banking, setBanking] = useState(false);
          const [others, setOthers] = useState(false);
+window.scrollTo(0,0)
+
     return (
       <div className="bg-white ">
           {/* Navbar grid */}

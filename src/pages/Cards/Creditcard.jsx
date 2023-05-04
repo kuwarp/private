@@ -11,6 +11,8 @@ import StepFirst from "../Auth/StepFirst"
 import { Link,Routes,Route } from "react-router-dom";
 // import { CalendarDaysIcon, HandRaisedIcon } from '@heroicons/react/24/outline'
 const Creditcard = () => {
+window.scrollTo(0,0)
+
   return (
     <>
       <div>
@@ -24,38 +26,32 @@ const Creditcard = () => {
             </div>
           </div>
 
-          <div className="mx-auto mt-6   container w-full flex items-center md:flex-row flex-col justify-between px-6 lg:px-0">
-            <div className="flex flex-col justify-start items-start mx-auto">
-              {/* <div>
-                <p className="lg:text-sm text-xs text-gray-600 dark:text-gray-300 font-medium leading-none">Creditklick</p>
-              </div> */}
-              <div className="md:mt-3">
-                <p className="text-gray-800 dark:text-white lg:text-4xl text-3xl font-semibold leading-9">
-                  Compare & Apply Credit Cards Online
-                </p>
-              </div>
-              <div className="mt-3">
-                <p>
-                At CreditKlick, you can search applications online for credit cards and choose the perfect one. By your eligibility, you can review pre-approved offers from top companies like Axis Bank, ICICI and SBI, as well as others. You can also get immediate approval.
-                </p>
-                <br/>
-                <p>Credit cards provide benefits in many categories, including fuel, shopping, and travel, with the help of rewards points, cashback and discounts. But you can reap the benefits offered by making an informed decision. Be aware that the most suitable choice for your credit score is one you select according to your habits and spending habits. To make it easier for you to choose the right one with this, we've covered essential details on credit card options on this webpage. Find out more about credit card options in India.</p>
-        <Link to="/Personal-Information">       <button class="bg-blue-400 animate-pulse hover:bg-blue-600 text-white font-semibold my-8 py-2 px-4 rounded-2xl w-auto">
-  Apply Now
-</button></Link> 
-              </div>
-            </div>
-            <div className="flex justify-center items-center lg:w-2/5 mt-10 md:mt-0">
-              <img className="w-full " src={ccmain} alt="laptops" />
-            </div>
-          </div>
+          <div className="container mx-auto h-auto rounded-3xl">
+      <div className=" w-auto h-auto p-4">
+      <div className="md:flex">
+        
+        <div className="p-8 my-auto">
+          <div className="uppercase text-3xl  font-semibold text-indigo-900 text-center ">Compare & Apply Credit Cards Online</div>
+          <p className='text-semibold text-md text-blue-900 my-2 p-2'> At CreditKlick, you can search applications online for credit cards and choose the perfect one. By your eligibility, you can review pre-approved offers from top companies like YES Bank, IDFC Bank, AU Bank as well as others. You can also get immediate approval. </p>
+          <p className='text-semibold text-md text-blue-900 my-2 p-2'> 
+          Credit cards provide benefits in many categories, including fuel, shopping, and travel, with the help of rewards points, cashback and discounts. But you can reap the benefits offered by making an informed decision. Be aware that the most suitable choice for your credit score is one you select according to your habits and spending habits. To make it easier for you to choose the right one with this, we've covered essential details on credit card options on this webpage, you can also compare different benefits by various cards. Find out more about credit card options in India.
+</p>
+          <div className=' mt-6 mx-auto justify-center'>
+          <Link to="/Personal-Information">
+            <button className="bg-blue-400 hover:bg-blue-600 text-white font-semibold px-4 py-2 mr-4 rounded-2xl uppercase">apply now</button>
+            </Link></div>
+        </div><div className="md:shrink-0 p-1 m-auto">
+          <img className=" object-cover rounded-xl max-w-md" src={ccmain} alt="Modern building architecture"/>
+        </div>
+      </div>
+      </div>
+    </div>
           {/* Hero End */}
           {/* Applying Card  */}
 
           <div className="w-full bg-gray-200 dark:bg-gray-900 py-10">
             
             <div className="container mx-auto px-6 flex items-start justify-center">
-              <div className="w-full animate ">
                 {/* Card is full width. Use in 12 col grid for best view. */}
              
                 {/* Card code block start */}
@@ -67,7 +63,7 @@ const Creditcard = () => {
                     </div>
                     <h2 className="text-blue-800 dark:text-gray-100 text-xl tracking-normal text-center font-medium mb-1">
                       AU BANK CREDIT CARDS </h2>
-                      <button class="bg-blue-400 animate-pulse hover:bg-blue-600 text-white font-semibold py-2 px-4 flex mx-auto rounded-2xl w-auto">
+                      <button class="bg-blue-400  hover:bg-blue-600 text-white font-semibold py-2 px-4 flex mx-auto rounded-2xl w-auto">
  Check Now
 </button>
                    
@@ -84,7 +80,7 @@ const Creditcard = () => {
                     <h2 className="text-blue-800 dark:text-gray-100 text-xl tracking-normal text-center font-medium mb-1">
                       IDFC FIRST CREDIT CARDS
                     </h2>
-                      <button class="bg-blue-400 animate-pulse hover:bg-blue-600 text-white font-semibold py-2 px-4 flex mx-auto rounded-2xl w-auto">
+                      <button class="bg-blue-400  hover:bg-blue-600 text-white font-semibold py-2 px-4 flex mx-auto rounded-2xl w-auto">
  Check Now
 </button>
                   
@@ -92,29 +88,29 @@ const Creditcard = () => {
                    
                   </div>
 
-                  <div className="w-full lg:w-1/4 px-12 border-t border-b lg:border-t-0 lg:border-b-0 lg:border-l lg:border-r border-gray-300 flex flex-col items-center py-10">
+                  <div className="w-full h-full lg:w-1/4 px-12 border-t border-b lg:border-t-0 lg:border-b-0 lg:border-l lg:border-r border-gray-300 flex flex-col items-center py-10">
                   <Link to="/Sbicards">
-                    <div className="mb-3 w-54 rounded-full  flex items-center justify-center cursor-pointer text-indigo-700">
+                    <div className="mb-3 w-54 rounded-full  flex  cursor-pointer text-indigo-700">
                       <img src={sbim} alt=" " />
                     </div>
                     <h2 className="text-blue-800 dark:text-gray-100 text-xl tracking-normal text-center font-medium mb-1">
-                      SBI CREDIT CARDS</h2>
-                      <button class="bg-blue-400  animate-pulse hover:bg-blue-600 text-white font-semibold py-2 px-4 flex mx-auto rounded-2xl w-auto">
+                      SBI CREDIT <br /> CARDS</h2>
+                      <button class="bg-blue-400   hover:bg-blue-600 text-white font-semibold py-2 px-4 flex mx-auto rounded-2xl w-auto">
  Check Now
 </button>
-                    
-                    
                     </Link>
+                    
+                    
                    
                   </div>
                   <div className="w-full lg:w-1/4 px-12 border-t border-b lg:border-t-0 lg:border-b-0 lg:border-l lg:border-r border-gray-300 flex flex-col items-center py-10">
                  <Link to="/Yescards">
-                    <div className="mb-3 w-54 animate-pulse rounded-full  flex items-center justify-center cursor-pointer text-indigo-700">
+                    <div className="mb-3 w-54 rounded-full  flex items-center justify-center cursor-pointer text-indigo-700">
                       <img src={yesm} alt=" " />
                     </div>
                     <h2 className="text-blue-800 dark:text-gray-100 text-xl tracking-normal text-center font-medium mb-1">
                       YES BANK CREDIT CARDS </h2>
-                      <button class="bg-blue-400 animate-pulse hover:bg-blue-600 text-white font-semibold py-2 px-4 flex mx-auto rounded-2xl w-auto">
+                      <button class="bg-blue-400  hover:bg-blue-600 text-white font-semibold py-2 px-4 flex mx-auto rounded-2xl w-auto">
  Check Now
 </button>
                    
@@ -125,7 +121,6 @@ const Creditcard = () => {
                 </div>
                
                 {/* Card code block end */}
-              </div>
             </div>
           </div>
 
@@ -207,12 +202,12 @@ const Creditcard = () => {
                     
                   </table>
                   <Link to="/Personal-Information">    
-                   <button class="bg-blue-400 animate-pulse hover:bg-blue-600  mx-auto lg:mx-96 text-white font-semibold flex mt-8 py-2 px-4 rounded-2xl w-auto">
+                   <button class="bg-blue-400 hover:bg-blue-600  mx-auto text-white font-semibold flex mt-8 py-2 px-4 rounded-2xl w-auto">
   Apply Now
 </button></Link> 
                 </div>
 
-                <div className="mt-8  justify-evenly items-start">
+                <div className="mt-8 mx-8 justify-evenly items-start">
                   {/* <table    class=" lg:mx-48  md:mx-32 bg-white border-collapse">
            
            <tr>
@@ -230,7 +225,7 @@ const Creditcard = () => {
            ))}
          </table> */}
 
-                  <h3 className="text-2xl lg:mx-4 text-teal-800 font-semibold mt-4">
+                  <h3 className="text-3xl lg:mx-4 text-teal-800 md:text-start text-center font-semibold mt-4">
                     {" "}
                     Interest Rates and Charges
                   </h3>

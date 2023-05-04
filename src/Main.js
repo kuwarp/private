@@ -38,6 +38,8 @@ import SBIclick from './pages/Calculators/SBIclick';
 import YEScalc from './pages/Calculators/YEScalc';
 import Payout from './pages/Refine/Payout';
 import Payment from './pages/Refine/Payment';
+import ToTop from './components/ToTop';
+import Confirm from './pages/Refine/Confirm';
 // import Stripehead from './components/Stripehead';
 const Main = () => {
   return (
@@ -75,6 +77,7 @@ const Main = () => {
   
   <Route path="/queries" exact element={<Payout/>}/>
   <Route path="/payments" exact element={<Payment/>}/>
+  <Route path="/confirmation" exact element={<Confirm/>}/>
 
   {/* Auth Routing */}
 
@@ -93,9 +96,10 @@ const Main = () => {
 
 </Routes>
 <Footer/>
+<ToTop />
+   
 </BrowserRouter>
 {/* <About/> */}
-   
     </div>
   )
 }

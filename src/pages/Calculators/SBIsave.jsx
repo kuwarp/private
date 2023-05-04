@@ -31,6 +31,8 @@ const SBIsave = () => {
     } else{
         milestone = 0;
     }
+window.scrollTo(0,0)
+
   return (
     <>
         <div className=" container grid md:grid-cols-2 grid-cols-1 mx-auto">

@@ -13,7 +13,10 @@ const links = [
     { name: 'Paid time off', value: 'Unlimited' },
   ]
 
-const About = () => {
+  
+  
+  const About = () => {
+  window.scrollTo(0,0)
     return (
         <div className="relative bg-teal-50     py-24 sm:py-32">
           <div className="b-white mx-auto max-w-7xl px-6 lg:px-8">

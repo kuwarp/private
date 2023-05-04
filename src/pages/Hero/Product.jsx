@@ -49,6 +49,8 @@ const people = [
     // More people...
   ]
 const Product = () => {
+window.scrollTo(0,0)
+
   return (
     <>
    

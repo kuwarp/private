@@ -47,6 +47,8 @@ import refine from "../assets/Images/Icon/5.png"
 //   ]
 
 const Product = () => {
+window.scrollTo(0,0)
+
   return (
     <>
    

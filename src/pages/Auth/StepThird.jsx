@@ -2,14 +2,18 @@ import React,{useState} from 'react'
 import { useNavigate } from 'react-router-dom';
 import { ToastContainer, toast } from 'react-toastify';
   import 'react-toastify/dist/ReactToastify.css';
-const StepThird = () => {
-  const [show, setshow] = useState(true);
-  const [text, setText] = useState("Worst");
-  const getText = (value) => {
-    setText(value);
-  };
 
-  const [otp, setotp]= useState('');
+
+  
+  
+  const StepThird = () => {
+    const [show, setshow] = useState(true);
+    const [text, setText] = useState("Worst");
+    const getText = (value) => {
+      setText(value);
+    };
+    
+    const [otp, setotp]= useState('');
     const navigate = useNavigate();
     const Submithandle=()=>{
     
@@ -23,26 +27,27 @@ const StepThird = () => {
         draggable: true,
         progress: undefined,
         theme: "colored",
-        });
-       
-      } 
-      // else if(otp.length!==setotp){
+      });
+      
+    } 
+    // else if(otp.length!==setotp){
       //   toast.warn('Check otp once!', {
-      //     position: "top-center",
-      //     autoClose: 5000,
-      //     hideProgressBar: false,
-      //     closeOnClick: true,
-      //     pauseOnHover: true,
-      //     draggable: true,
-      //     progress: undefined,
-      //     theme: "colored",
-      //     });
-      // }
-      else {
-        navigate('/report-analysis')
+        //     position: "top-center",
+        //     autoClose: 5000,
+        //     hideProgressBar: false,
+        //     closeOnClick: true,
+        //     pauseOnHover: true,
+        //     draggable: true,
+        //     progress: undefined,
+        //     theme: "colored",
+        //     });
+        // }
+        else {
+          navigate('/report-analysis')
+        }
       }
-    }
-  return (
+      window.scrollTo(0,0)
+      return (
     <>
 
 

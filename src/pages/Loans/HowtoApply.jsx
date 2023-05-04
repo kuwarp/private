@@ -25,13 +25,15 @@ const stepstoapply =[
     },
     {
         heading:"STEP 6",
-        content: "Facility to check your Business Loan status on the go"
+        content: "Facility to check your Loan status on the go"
     },
 
 ]
 
 const HowtoApply = () => {
     const [apply, setApply] = useState(stepstoapply);
+window.scrollTo(0,0)
+
   return (
     <>
 

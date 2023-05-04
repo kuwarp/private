@@ -9,6 +9,8 @@ import elite from "../../assets/Images/sbiimg/elite.png"
 import Product from '../Product'
 import { Link } from 'react-router-dom'
 const Sbicards = () => {
+window.scrollTo(0,0)
+
   return (
     <>
     <div className="container mx-auto h-auto rounded-3xl shadow-lg bg-blue-100">

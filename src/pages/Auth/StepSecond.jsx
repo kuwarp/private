@@ -9,6 +9,8 @@ import { useForm } from "react-hook-form";
 // import { ToastContainer, toast } from 'react-toastify';
 //   import 'react-toastify/dist/ReactToastify.css';
 
+
+
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
 }
@@ -19,18 +21,19 @@ const StepSecond = () => {
   // const back=useHistory();
   const onBack=(e)=>{
     e.preventDefault();
-   navigate(-1)
+    navigate(-1)
   }
   const onSubmit = (data) => {
     navigate('/working-Information')
   }
-
-
-
+  
+  
+  
   const [agreed, setAgreed] = useState(false)
-
-
- 
+  
+  
+  
+  window.scrollTo(0,0)
   return (
     <>
        

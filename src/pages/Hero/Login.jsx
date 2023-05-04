@@ -1,6 +1,8 @@
 import React from 'react'
 
 const Login = () => {
+window.scrollTo(0,0)
+
   return (
     <>
 

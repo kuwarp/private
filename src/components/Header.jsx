@@ -1,6 +1,7 @@
 import { Fragment, useState } from 'react'
 import { ToastContainer, toast } from 'react-toastify';
 import {Route, Link,useNavigate ,Routes} from 'react-router-dom'
+import './header.css';
 
   import 'react-toastify/dist/ReactToastify.css';
 import "../index.css"
@@ -120,9 +121,11 @@ const [phone, setPhone]= useState('');
             });
       }
     }
+  window.scrollTo(0,0)
+
   return (
     <>
-    <header className="bg-white h-20">
+    <header className="bg-gray-100 bg-opacity-100 h-20 navsticky">
       <nav className="mx-auto flex max-w-7xl items-center justify-between lg:px-8" aria-label="Global">
         <div className="flex lg:flex-1">
           <Link to="/" className="-mx-1.5 p-1.5 my-2">
@@ -133,7 +136,7 @@ const [phone, setPhone]= useState('');
         <div className="flex lg:hidden">
           <button
             type="button"
-            className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"
+            className=" inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"
             onClick={() => setMobileMenuOpen(true)}
           >
             <span className="sr-only">Open main menu</span>
@@ -207,8 +210,8 @@ const [phone, setPhone]= useState('');
           <Link to="/Credit-score"  className="text-lg animate-bounce font-semibold leading-6 text-red-700">
              Check Credit Score 
           </Link>
-          <Link to="/Calculators" className="text-lg font-semibold leading-6 text-gray-900">
-            Finance Calculator
+          <Link to="/Refine" className="text-lg font-semibold leading-6 text-blue-800">
+            Credit Refine
           </Link>
         </Popover.Group>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
@@ -327,10 +330,10 @@ const [phone, setPhone]= useState('');
         <div className="fixed inset-0 z-10" />
         <Dialog.Panel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
           <div className="flex items-center justify-between">
-            <a href=" " className="-m-1.5 p-1.5">
+            <a href=" " className="">
               <span className="sr-only">Creditklick</span>
               <img
-                className="h-28 w-auto"
+                className="h-10 w-auto"
                 src={Logo}
                 alt=""
               />
@@ -385,10 +388,10 @@ const [phone, setPhone]= useState('');
                  Check Cibil Score
                 </Link>
                 <Link
-                  to="/CalCulators "
+                  to="/Refine "
                   className="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
-                  Finance Calculator
+                Credit Refine
                 </Link>
               </div>
               <div className="py-6">

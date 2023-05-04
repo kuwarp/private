@@ -15,6 +15,7 @@ const CibilHero = () => {
     setIsOpen(true)
   }
 
+window.scrollTo(0,0)
   
   return (
     <>

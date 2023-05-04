@@ -5,8 +5,13 @@ import Idfc from "../../assets/Images/calci/IBcalc.png"
 import Save from "../../assets/Images/calci/SScalc.png"
 import Clicks from "../../assets/Images/calci/SCLcalc.png"
 import YesB from "../../assets/Images/calci/YBcalc.png"
+// import Aucalc from './Aucalc'
+
+
 import { Link } from 'react-router-dom'
 const Calculators = () => {
+window.scrollTo(0,0)
+
   return (
     <>
 
@@ -53,7 +58,7 @@ const Calculators = () => {
                                         </a>
                                     </div>
                                 </div>
-</Link>
+                                </Link> 
                                 <Link to="/au-calculator">
 
                                 <div role="cell" className="bg-gray-100">

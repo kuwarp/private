@@ -2,22 +2,27 @@ import React from 'react'
 import Cibilg from "../../assets/Images/hscore.png"
 import { Link } from 'react-router-dom'
 const Cibilstr = () => {
+window.scrollTo(0,0)
+
   return (
     <>
-    <div className="relative shadow-lg rounded-xl p-8  overflow-hidden bg-white">
+    <div className=" shadow-lg rounded-xl p-8  bg-white">
       <div className=" grid md:grid-cols-2 grid-cols-1 justify-between">
           <div className="sm:max-w-lg m-auto space-y-8">
             <h1 className=" text-3xl font-semibold tracking-tight text-blue-900 md:text-5xl">
-            Smart choices can improve your credit score, don't be silly.
+            Discover your Credit Health for FREE
+            </h1>
+            <h1 className=" text-xl font-semibold tracking-tight text-blue-900 md:text-3xl">
+           Check your Credit Score today
             </h1>
             <p className="mt-4 md:text-xl text-md text-gray-500">
-            A business credit report (CCR) is a record of your business credit history. It was created from data submitted to CIBIL by lenders across India. CIBIL RANK summarizes your CCR as a number on a scale of 1 to 10, where 1 is the best ranking. The CIBIL Rank & Company Credit Report (CCR) is an indicator of your loan eligibility.
+            Get a better understanding of your financial health with a free Credit Score check today. Discover where you stand and take control of your Credit with ease!
             </p>
             <Link
                to="/Credit-score"
-                className="inline-block  rounded-md border border-transparent bg-indigo-600 py-2 px-4 mx-auto text-center font-medium text-white hover:bg-indigo-700"
+                className="inline-block rounded-md border border-transparent bg-indigo-600 py-2 px-4 mx-auto text-center font-medium text-white hover:bg-indigo-700"
               >
-                Check Cibil Now
+                Check Now
               </Link>
           </div>
           <div className='flex m-auto'>

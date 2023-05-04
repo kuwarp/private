@@ -60,7 +60,7 @@ export default function Slider() {
   };
 
   return (
-    <div ref={slideRef} className="pb-10 shadow-lg select-none relative">
+    <div ref={slideRef} className="pb-10 shadow-lg select-none ">
       <Link to="/Personal-Information">
       <div className="md:w-9/12 mx-auto">
         <img src={featuredProducts[currentIndex]} alt="" className="" />

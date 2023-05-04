@@ -1,8 +1,19 @@
 import React,{useState} from 'react'
 import heroImg from "../../assets/Images/Refine/refine2.png"
 import { Link } from 'react-router-dom';
+import './refine.css';
 const Payout = () => {
   const [show, setShow] = useState(false);
+
+  const [isExpanded, setIsExpanded] = useState(false);
+
+  const handleMouseEnter =() =>{
+    setIsExpanded(true);
+  }
+//   const handleMouseLeave=() =>{
+//     setIsExpanded(false);
+//   }
+//   window.scrollTo(0,0)
   return (
       <div className="py-2 bg-gray-100 overflow-y-hidden">
           {/* Code block starts */}
@@ -55,41 +66,43 @@ const Payout = () => {
                         <div className="w-full flex flex-col mt-4 bg-pink-200 p-3 rounded-xl shadow-lg">
                             {/* <textarea tabIndex={0} aria-label="leave a message" role="textbox" type="name" className="h-36 text-base leading-none text-gray-900 p-3 focus:oultine-none focus:border-indigo-700 mt-4 bg-purple-300 border shadow-lg rounded border-gray-200 placeholder-gray-500 resize-none rounded-xl" defaultValue={""} /> */}
                             <span className='mb-3'>
-                            <input type="checkbox " />
+                            <input type="radio" />
                             <label htmlFor="salaried" className='text-base font-semibold mx-3 text-gray-700'>Need fresh loan/CC to clear outstandings?</label>
                         </span>
                         <span className='my-3'>
-                            <input type="checkbox " />
+                            <input type="radio" />
                             <label htmlFor="salaried" className='text-base font-semibold mx-3 text-gray-700'>Settle the existing loan</label>
                         </span>
                         <span className='my-3'>
-                            <input type="checkbox " />
+                            <input type="radio" />
                             <label htmlFor="salaried" className='text-base font-semibold mx-3 text-gray-700'>Pay partial payment of existing account and pay in EMIs</label>
                         </span>
                         <span className='my-3'>
-                            <input type="checkbox " />
+                            <input type="radio" />
                             <label htmlFor="salaried" className='text-base font-semibold mx-3 text-gray-700'>Just want to improve the credit score</label>
                         </span>
                         <span className='my-3'>
-                            <input type="checkbox " />
+                            <input type="radio" />
                             <label htmlFor="salaried" className='text-base font-semibold mx-3 text-gray-700'>Get rid off the recurring phone calls of recovery</label>
                         </span>
                         <span className='my-3'>
-                            <input type="checkbox " />
+                            <input type="radio" />
                             <label htmlFor="salaried" className='text-base font-semibold mx-3 text-gray-700'>Close existing account</label>
                         </span>
                         <span className='mt-3'>
-                            <input type="checkbox " />
+                            <input type="radio" />
                             <label htmlFor="salaried" className='text-base font-semibold mx-3 text-gray-700'>Others</label>
                         </span>
                         </div>
                     </div>
                     <p className="text-sm leading-3 text-gray-900 mt-8 px-3">By clicking submit you agree to our terms of service, privacy policy.</p>
+                    <div className='w-80 text-sm text-gray-900 mt-8 '>
+                    <p className= {isExpanded ? 'expand': 'truncate'} onClick={handleMouseEnter} >CreditKlick does not sell any loans on our own and do not charge any fee from any customers/viewers. We advise customers/viewers to choose from best offers from Banks and its advertisers. We do not guarantee any loans as loan sanction is as per Banks and Nbfcs. We suggest all users to never pay any upfront amount for any loan disbursal and if any person who call you as representative of CreditKlick and ask for any amount report the incident immediately via putting us a mail at <a href="mailto:support@creditklick.com" className='text-blue-800'>support@creditklick.com</a></p></div>
+                    <div id="button" className={`${show ? "hidden" : "flex"}   my-8 justify-center items-center w-auto`}>
                <Link to="/payments">
-                    <div id="button" className={`${show ? "hidden" : "flex"}  container mx-auto justify-center items-center px-4 md:px-10 pb-10 mt-4`}>
-                        <button  className="mt-9 text-base font-semibold leading-none text-white py-4 px-10 bg-indigo-500 rounded hover:bg-indigo-700 focus:ring-2 focus:ring-offset-2 focus:ring-indigo-700 focus:outline-none rounded-full">SUBMIT</button>
-                    </div>
+                        <button  className="m-auto text-base font-semibold leading-none text-white py-4 px-10 bg-indigo-500 rounded hover:bg-indigo-700  rounded-full">SUBMIT</button>
                     </Link>  
+                    </div>
                 </div>
             </div>
 

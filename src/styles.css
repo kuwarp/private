@@ -51,3 +51,27 @@
     background: inherit;
     mask: linear-gradient(to bottom, white 40%, transparent); /* Top image is masked with a gradient */
 }
+
+.parallaxprivacy{
+
+
+  background-image: url("./assets/img/bg-map.png");
+
+  /* Set a specific height */
+  min-height: 100%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallaxprivacy::after{
+  content: '';
+  position: absolute;
+  width: inherit;
+  height: inherit;
+  background: inherit;
+  mask: linear-gradient(to bottom, white 40%, transparent); /* Top image is masked with a gradient */
+}

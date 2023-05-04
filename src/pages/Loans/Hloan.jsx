@@ -21,6 +21,7 @@ const Hloan = () => {
   const [box5, setBox5] = useState(false);
   const [box6, setBox6] = useState(false);
 
+  window.scrollTo(0,0)
 
   return (
   
@@ -33,11 +34,11 @@ const Hloan = () => {
       <div class="md:flex">
         <div class="p-10 space-y-6">
           <div class="uppercase text-xl text-blue-00 font-semibold text-blue-900">home loan</div>
-          <p class="mt-2 text-blue-800">Banks, along with Housing Finance Companies (HFCs), offer home loans that range from 75% to 90 per cent of the property's worth according to the credit history of the loanee subject to the limits on LTV ratios set by banks and RBI. The term of a home loan could be as long as 30 years, based on the borrower's age and capacity to repay the loan applicant. On CreditKlick.com, We help you evaluate the interest rates for housing loans and other services that leading banks and HFCs offer. You can also apply online to get the best option for your credit report.</p>
+          <p class="mt-2 text-blue-800">Banks and Housing Finance Companies (HFCs) offer housing loans ranging from 75% to 90% of the value of the property, depending on the creditworthiness of the borrower, subject to lending limits set by banks and the RBI. The term of a home loan can be up to 30 years and is based on the age of the borrower and their ability to repay the loan. At CreditKlick.com, we help you evaluate home loan interest rates and other services offered by leading banks and HFCs. You can also apply online to get the best option for your credit report.</p>
       
           <div className='flex flex-col   my-6'>
   <Link to="/Personal-Information">    
-                     <button class="bg-blue-400 animate-pulse hover:bg-blue-600 items-center  mx-auto  text-white font-semibold py-2 px-4 rounded-2xl w-auto">
+                     <button class="bg-blue-400 hover:bg-blue-600 items-center  mx-auto  text-white font-semibold py-2 px-4 rounded-2xl w-auto">
     Apply Now
   </button></Link> 
   </div>
@@ -93,7 +94,7 @@ const Hloan = () => {
 
 <div className='flex flex-col  items-center my-6'>
 <Link to="/Personal-Information">    
-                   <button class="bg-blue-400 animate-pulse hover:bg-blue-600 items-center  mx-auto lg:mx-96 text-white font-semibold  mt-8 py-2 px-4 rounded-2xl w-auto">
+                   <button class="bg-blue-400 hover:bg-blue-600 items-center  mx-auto lg:mx-96 text-white font-semibold  mt-8 py-2 px-4 rounded-2xl w-auto">
   Apply Now
 </button></Link> 
 </div>
@@ -126,20 +127,60 @@ const Hloan = () => {
     </div>
     <div className='container mx-auto my-8 bg-gray-100 p-4'>
   <p className='text-xl font-semibold text-indigo-800 text-center'>Document required for a Home Loan</p>
-  <p  className='text-teal-800 my-3 mx-4 text-md'>Keep the following documents on hand when filling the online application form</p>
-   
-  <li className='mx-5 list-disc my-1 text-md'> <b >KYC Documents - </b>
-  Aadhar card, PAN card, Voter ID card, Driving Licence or any other government-approved KYC document</li>
-      <li className='mx-5 list-disc my-1 text-md'> <b >Address Proof - </b>
-      Documents such as your electricity bill, rent agreement, or passport may be used as proof of address
-      (Property documents to be submitted later)
+  <p  className='text-teal-800 my-3 mx-4 text-md'>Housing loans provided by banks and NBFCs are secured loans and are provided for a long term, taking into account the amount of the loan and the income of the individual. Different lenders or financiers have different criteria for credit worthiness which include age, income, business, job stability etc.</p>
+  <h2 className='text-lg font-semibold text-teal-800 my-3 mx-4'>Home Loan Income Eligibility and criteria for Salaried Individuals</h2>
+  <li className='mx-5 list-disc my-1 text-md'> <b >Age - </b>
+  The minimum age to apply for a home loan is 21 years, and the maximum age is 58 years or retirement age, whichever is earlier. A home loan should be repaid before the borrower exceeds the age limit set by the Internal Revenue Service.</li>
+      <li className='mx-5 list-disc my-1 text-md'> <b >Income -</b>
+      The minimum net income required for a salaried individual is Rs. 20.00 thousand per month
       </li>
-      <li className='mx-5 list-disc my-1 text-md'> <b >Financial Documents - </b>
-     Salary slips of last 3 months, bank account statement and other financial documents</li>
+      <li className='mx-5 list-disc my-1 text-md'> <b >Work experience and job stability - </b>The applicant should have at least 2 years of work experience in a full time job.</li>
  
- <li className='mx-5 list-disc my-1 text-md'> <b >Proof of Salary Income -</b>
- Copy of Form 16, the latest pay slips and the IT return (ITR) from the last three years, and the investment documents (if any). Proof of Self-employed income Information on ITR for the three years ago including Statement of Balance and Profit and Loss Statement of the Firm or Company Business License Information, and proof of business address
+ <li className='mx-5 list-disc my-1 text-md'> <b >Repayment history for all loans -</b>
+ A salaried person applying for a home loan should have a clear repayment history for all existing and closed loans and credit cards.
       </li>
+
+      <li className='mx-5 list-disc my-1 text-md'> <b >Type of Residence -</b>
+      A loan applicant must reside at the current residence for at least the last 6 months, or it should be an owned or parental property.
+      </li>
+
+      <li className='mx-5 list-disc my-1 text-md'> <b >Credit score -</b>
+      Employees applying for a home loan should have a CIBIL score (credit score) of at least 700. The CIBIL score depends on your repayment history on bank transactions, loans and credit cards. A good CIBIL score depends on your clear repayment behavior on loans and credit cards. Cases with a CIBIL score of less than 700 will be referred to the bank's policy and risk team for a deviation from loan approval. If you have never availed a loan or credit card from a bank or NBFC, your CIBIL score should be minus one (-1); in such cases, banks will take a variance to approve the home loan for employees. <br />
+      Under the Employee Housing Loan Scheme, employees of Indian private companies, public sector companies, multinational companies (with branches in India), employees of banks, schools/colleges and local companies can apply for a housing loan.
+
+      </li>
+
+      <h2 className='text-lg font-semibold text-teal-800 my-3 mx-4'>Income requirements and criteria for self-employed entrepreneurs for a housing loan</h2>
+
+      <p  className='text-teal-800 my-3 mx-4 text-md'>An independent contractor must be a resident of India and have valid KYC (know your customer) and financial statements, as well as a regular and stable monthly business income to repay the loan.</p>
+
+      <li className='mx-5 list-disc my-1 text-md'> <b >Age -</b>
+      The minimum age to apply for a home loan is 21 years and the maximum age is 65 years. A home loan should be repaid before the borrower exceeds the age limit set by the lender.
+      </li>
+
+      <li className='mx-5 list-disc my-1 text-md'> <b >Income -</b>
+      The minimum net income required for a self-employed person is Rs. 2.50 lacs per annum. 
+      </li>
+
+      <li className='mx-5 list-disc my-1 text-md'> <b >Work experience and professional stability -</b>
+      The loan applicant must have been in business for at least 3 years at the time of applying for the loan.
+
+      </li>
+
+      <li className='mx-5 list-disc my-1 text-md'> <b >Repayment history of all loans -</b>
+      A self-employed person applying for a home loan should have a clear repayment history for all existing and closed loans and credit cards taken in the name of the business or individual.
+      </li>
+
+      <li className='mx-5 list-disc my-1 text-md'> <b >Type of Residence -</b>
+      A loan applicant must reside at the current residence for at least the last 6 months or it should be owned or parental property.
+      </li>
+
+      <li className='mx-5 list-disc my-1 text-md'> <b >Credit Bureau Score -</b>
+      Self-employed individuals applying for a home loan must have a CIBIL score (credit bureau score) of at least 700. The CIBIL score depends on your repayment history on bank transactions, loans and credit cards. A good CIBIL score depends on your clear repayment behavior on loans and credit cards. Cases with a CIBIL score of less than 700 will be referred to the bank's policy and risk team for a deviation from credit approval. If you have never availed a loan or credit card from a bank or NBFC, your CIBIL score should be minus one (-1). In this case, banks will take a deviation from the guideline to approve the housing loan for an independent contractor.
+
+      </li>
+
+        <p className='font-semibold'>To be eligible to apply for housing loan under self-employed scheme, the loan applicant should be running his own business and may be engaged in trade, manufacturing, service, consultancy or professional practice like CA, CS, doctor etc. He should pay income tax and other taxes required by law on time.</p>
 
       <p className="text-red-800 my-4">NOTE: Apart from the parameters mentioned above, in addition to the above parameters, your credit eligibility for a mortgage also depends on the type of property you're purchasing and the area in which the home is situated.</p>
   </div>
@@ -154,7 +195,7 @@ const Hloan = () => {
 
     <div className='flex flex-col  items-center my-6'>
 <Link to="/Personal-Information">    
-                   <button class="bg-blue-400 animate-pulse hover:bg-blue-600 items-center  mx-auto lg:mx-96 text-white font-semibold  mt-8 py-2 px-4 rounded-2xl w-auto">
+                   <button class="bg-blue-400 hover:bg-blue-600 items-center  mx-auto lg:mx-96 text-white font-semibold  mt-8 py-2 px-4 rounded-2xl w-auto">
   Apply Now
 </button></Link> 
 </div>
@@ -352,7 +393,7 @@ Based on the caps set in the RBI on LTV ratios, banks/HFCs also determine the LT
 {/* FAQ ENDS */}
 <div className='flex flex-col  items-center mb-6'>
 <Link to="/Personal-Information">    
-                   <button class="bg-blue-400 animate-pulse hover:bg-blue-600 items-center  mx-auto lg:mx-96 text-white font-semibold py-2 px-4 rounded-2xl w-auto">
+                   <button class="bg-blue-400 hover:bg-blue-600 items-center  mx-auto lg:mx-96 text-white font-semibold py-2 px-4 rounded-2xl w-auto">
   Apply Now
 </button></Link> 
 </div>

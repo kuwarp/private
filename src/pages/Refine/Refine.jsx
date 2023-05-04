@@ -11,6 +11,11 @@ import navi from "../../assets/Images/Refine/navi.png"
 import rupees from "../../assets/Images/bloan/rupees.png"
 import approved from "../../assets/Images/bloan/approved.jpg"
 import time from "../../assets/Images/bloan/time.png"
+import redrefine from "../../assets/Images/Icon/redrefine.png"
+import emirefine from "../../assets/Images/Icon/emirefine.png"
+import eyerefine from "../../assets/Images/Icon/eyerefine.png"
+import iderefine from "../../assets/Images/Icon/iderefine.png"
+
 
 import { Link } from 'react-router-dom'
 const Refine = () => {
@@ -19,6 +24,7 @@ const Refine = () => {
   const [box3, setBox3] = useState(false);
   const [box4, setBox4] = useState(false);
   const [box5, setBox5] = useState(false);
+
   return (
     <>
 
@@ -51,18 +57,20 @@ const Refine = () => {
 
 {/* Hero End */}
 
-{/* Our Process Starts */}
 
 
-<div classname="overflow-y-hidden bg-gray-100">
-    <div className="mx-auto container f-f-p px-4 xl:px-0 py-24">
+{/* Our Process Starts bigScreen */}
+
+
+<div classname="overflow-y-hidden bg-gray-100 ">
+    <div className="mx-auto container hidden  lg:block f-f-p px-4 xl:px-0 py-24">
       <h1 className="focus:outline-none text-center text-4xl font-semibold lg:leading-9 tracking-wider text-gray-900">How We Works?</h1>
       <div className="md:mt-12 f-f-p">
          
 
       <div className="  md:flex justify-center w-full">
-          <div className="flex flex-col items-center md:items-end md:pr-12 md:border-r-4 border-gray-300 relative md:w-1/2">
-            <div aria-label="sign up" role="img">
+          <div className="flex flex-col items-center md:items-end md:pr-12 md:border-r-4 border-gray-300  md:w-1/2">
+            <div aria-label="sign up" role="img" className='w-40'>
               <img className="focus:outline-none mt-10" src={login} alt="how it work" />
             </div>
             <div aria-label={2} role="img">
@@ -72,7 +80,7 @@ const Refine = () => {
               <h1 className="focus:outline-none text-xl font-bold leading-5">Raise Your Application</h1>
               <h2 className="focus:outline-none text-gray-500 mt-3 pl-3 text-center md:text-right text-base leading-6 tracking-wide">Book a slot to navigate your importance  </h2>
             </div>
-            <div aria-label="transactions" role="img">
+            <div aria-label="transactions" role="img" className='w-40'>
               <img className="focus:outline-none mt-24" src={navi} alt />
             </div>
             <img className="hidden md:block absolute right-0 top-0 -mt-2 -mr-1" src="https://cdn.tuk.dev/assets/components/111220/Fs7/line.png" alt />
@@ -83,7 +91,7 @@ const Refine = () => {
           <div className="flex flex-col items-center md:items-start md:pl-12 lg:border-gray-400 mt-20 md:mt-0 md:w-1/2">
            
               {/* Setp1 */}
-            <div aria-label={1} role="img">
+            <div aria-label={1} role="img" className='mt-10'>
               <img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/3_step_center_aligned_how_it_worksSvg4.svg" alt />
             </div>
             <div className="flex mt-6 flex-col items-center md:items-start md:w-8/12">
@@ -92,11 +100,11 @@ const Refine = () => {
             </div>
 
                {/* Setp1 End */}
-            <div aria-label="wallet" role="img">
-              <img className="focus:outline-none mt-32" src={form} alt />
+            <div aria-label="wallet" role="img" className='w-40  mt-28'>
+              <img className="focus:outline-none" src={form} alt />
             </div>
-            <div aria-label={3} role="img">
-              <img className="focus:outline-none mt-20" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/3_step_center_aligned_how_it_worksSvg6.svg" alt=" " />
+            <div aria-label={3} role="img" className='mt-24'>
+              <img className="focus:outline-none" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/3_step_center_aligned_how_it_worksSvg6.svg" alt=" " />
             </div>
             <div className="flex mt-6 flex-col items-center md:items-start md:w-8/12">
               <h1 className="focus:outline-none text-xl font-bold leading-5">Connect with Consultant</h1>
@@ -137,20 +145,74 @@ const Refine = () => {
     </div>
   </div>
 
-{/* Our Process Ends */}
+
+{/* Our Process Ends bigScreen*/}
+
+
+{/* smallScreen how we works starts */}
+
+<div className="grid grid-cols-1 lg:hidden ">
+<h1 className="focus:outline-none text-center text-4xl font-semibold lg:leading-9 tracking-wider text-gray-900">How We Works?</h1>
+    
+    <div aria-label="sign up" role="img" className='w-28 mx-auto'>
+        <img className="focus:outline-none mt-10" src={login} alt="login" />
+    </div>
+    <div>
+        <div aria-label={1} role="img" className='mt-8'>
+            <img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/3_step_center_aligned_how_it_worksSvg4.svg" className='mx-auto' alt />
+
+        </div>
+        <div className="flex mt-6 flex-col items-center ">
+            <h1 className="focus:outline-none text-xl text-center font-semibold leading-5">SignUp for an Account</h1>
+            <h2 className="focus:outline-none text-gray-500 mt-3 text-center text-base leading-6 tracking-wide">Log In to our website or Register yourself  . </h2>
+        </div>
+    </div>
+    <div aria-label="transactions" role="img" className='w-28 mx-auto'>
+              <img className="focus:outline-none mt-10" src={navi} alt="Raise your application" />
+            </div>
+    <div> 
+        <div aria-label={2} role="img" className='mt-8'>
+            <img className="mx-auto" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/3_step_center_aligned_how_it_worksSvg2.svg" alt />
+        </div>
+        <div className="flex mt-6 flex-col items-center">
+            <h1 className="focus:outline-none text-xl text-center font-semibold leading-5">Raise Your Application</h1>
+            <h2 className="focus:outline-none text-gray-500 mt-3 text-center text-base leading-6 tracking-wide">Book a slot to navigate your importance  </h2>
+        </div>
+    </div>
+    <div aria-label="transactions" role="img" className='w-28 mx-auto'>
+              <img className="focus:outline-none mt-10" src={form} alt="Raise your application" />
+            </div>
+    <div>
+    <div aria-label={2} role="img" className='mt-8'>
+            <img className="mx-auto" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/3_step_center_aligned_how_it_worksSvg6.svg" alt />
+        </div>
+        <div className="flex mt-6 flex-col items-center ">
+              <h1 className="focus:outline-none text-xl text-center  font-semibold leading-5">Connect with Consultant</h1>
+              <h2 className="focus:outline-none text-gray-500 mt-3 text-center text-base leading-6 tracking-wide">Our Professional Consultant assist you as soon as possible. Know your importance in details.</h2>
+            </div>
+    </div>
+  <img className='flex  col my-8  justify-center items-center w-2/5 mx-auto ' src={Karma1} alt="" srcset="" />
+
+</div>
+
+{/* smallScreen how we works ends */}
+
+
 
 {/* Contact Us Start  */}
 
 < div className = "  2xl:mx-auto 2xl:container md:px-20 px-4 " > 
                     {/* < img src = {Cnt} alt = " city view " className = "opacity-30 w-full h-full rounded-md object-center object-fill absolute sm:block hidden " />    
                     < img src = " https://i.ibb.co/LQpxBsc/mobile.png " alt = " city view " className = " opacity-20 w-full h-full rounded-md absolute object-center object-fill sm:hidden " />     */}
-                    < div className = " text-xl relative z-20 bg-gradient-to-r from-blue-500 to-blue-100 md:flex flex-row-2 w-full top-0  md:p-16 p-8 justify-between rounded-md ring-1 ring-blue-100" > 
+                    < div className = " text-xl  bg-gradient-to-r from-blue-500 to-blue-100 md:flex flex-row-2 w-full top-0  md:p-16 p-8 justify-between rounded-md ring-1 ring-blue-100" > 
                         <div className='space-y-8'> 
                             <h1 className = "md:text-5xl text-3xl font-bold md:leading-10 leading-9 text-white w-auto" >Book a Call with Expert  </h1> 
                             <p className = "text-xl font-semibold text-blue-900 leading-6 w-auto mt-4" >Need personalized guidance to solve your question? Don't worry!<br/> Call a trained credit professional to make an appointment. </p> 
                         </div> 
-                                                < div className = "flex my-auto md:pt-0 pt-8" > 
-                            < button className = " text-base  font-medium text-white bg-gradient-to-r h-12 px-4 from-blue-500 to-blue-300 w-auto rounded  hover:bg-gray-100  mx-auto " > TALK TO TEAM </ button > 
+                                                < div className = "flex m-auto md:pt-0 pt-8" > 
+                                                <Link to="/queries">
+                            < button className = " text-base md:border-0 border-2 border-blue-500 font-medium text-white bg-gradient-to-r h-12 px-4 from-blue-500 to-blue-300 w-auto rounded  hover:bg-gray-100  mx-auto " > TALK TO TEAM </ button > 
+                            </Link>
                         </div> 
                                             </div> 
                                     </div> 
@@ -234,19 +296,19 @@ const Refine = () => {
     <p className="text-center font-semibold text-4xl text-blue-900 my-10">WHY USE CREDIT REFINE</p>
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 px-4 bg-gray-100 mx-auto py-4 rounded-xl">
       <div className='hover:shadow-xl m-2 p-4 rounded-xl space-y-4 bg-white'>
-        <img src={time} alt="" className='w-20'/>
+        <img src={emirefine} alt="" className='w-28 mx-auto rounded-full shadow-lg'/>
         <p className="font-semibold text-xl text-blue-800 ">To achieve a credit score above 800</p>
       </div>
       <div className='hover:shadow-xl m-2 p-4 rounded-xl space-y-4 bg-white'>
-        <img src={approved} alt="" className='w-20'/>
+        <img src={redrefine} alt="" className='w-28 mx-auto rounded-full shadow-lg'/>
         <p className="font-semibold text-xl text-blue-800 ">Reduce the monthly cost of EMI.</p>
       </div>
       <div className='hover:shadow-xl m-2 p-4 rounded-xl space-y-4 bg-white'>
-        <img src={rupees} alt="" className='w-20' />
+        <img src={eyerefine} alt="" className='w-28 mx-auto rounded-full shadow-lg' />
         <p className="font-semibold text-xl text-blue-800 ">You can keep an eye on your Credit Profile</p>
       </div>
       <div className='hover:shadow-xl m-2 p-4 rounded-xl space-y-4 bg-white'>
-        <img src={rupees} alt="" className='w-20' />
+        <img src={iderefine} alt="" className='w-28 mx-auto rounded-full shadow-lg' />
         <p className="font-semibold text-xl text-blue-800 ">Identify accounts that affects your Credit Score.</p>
       </div>
     </div>

@@ -2,6 +2,8 @@ import React from 'react'
 import formpic from "../../assets/Images/authloan.png"
 import { Link } from 'react-router-dom'
 const loanform = () => {
+window.scrollTo(0,0)
+
   return (
     <>
     
